@@ -7,6 +7,8 @@
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-304"
 		"ypos"			"c64"
+		"xpos_minmode"	"c-352"
+		"ypos_minmode"	"c96"
 		"zpos"			"2"
 		"wide"			"256"
 		"tall"			"64"
@@ -75,7 +77,7 @@
 		"textAlignment"	"east"
 		"textInsetx"	"0"
 		"font"			"juliaBlurLarge"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"bgcolor_override" "Blank"
 		"paintbackground" "1"
 	}

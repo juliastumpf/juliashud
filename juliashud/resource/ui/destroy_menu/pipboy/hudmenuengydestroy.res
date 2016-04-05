@@ -1,13 +1,5 @@
 "Resource/UI/build_menu/HudMenuEngyDestroy.res"
 {
-	"MainBackground"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MainBackground"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-
 	"ItemBackground"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -15,21 +7,21 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+
 	"BackgroundEngineer"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundEngineer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-10"
-		"wide"			"32"
-		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"
-		"image"			"pipboy_engineer"
-		"tileImage"		"1"
-		"tileVertically" "1"
+	}
+
+	"MainBackground"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MainBackground"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"DestroyIcon"
@@ -40,22 +32,31 @@
 		"enabled"		"0"
 	}
 
+	"TitleLabelDropshadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelDropshadow"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"facehudFontSmall"
+		"font"			"juliaSmall"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"54"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"destroy"
+		"tall"			"12"
+		"textinsety"	"-4"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"!! destroy !!"
 		"textAlignment"	"west"
-		"fgcolor"		"facehudFG"
-		"bgcolor_override"		"facehudPipBoy"
+		"fgcolor"		"juliaFG"
+		"bgcolor_override"		"Blank"
 	}
 
 	"CancelLabel"
@@ -74,7 +75,8 @@
 		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"84"
-		"tall"			"10"
+		"tall"			"12"
+		"textinsety"	"-4"
 		"visible"		"0"
 	}
 
@@ -86,7 +88,8 @@
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"84"
-		"tall"			"10"
+		"tall"			"12"
+		"textinsety"	"-4"
 		"visible"		"0"
 	}
 
@@ -98,7 +101,8 @@
 		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"84"
-		"tall"			"10"
+		"tall"			"12"
+		"textinsety"	"-4"
 		"visible"		"0"
 	}
 
@@ -110,7 +114,8 @@
 		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"84"
-		"tall"			"10"
+		"tall"			"12"
+		"textinsety"	"-4"
 		"visible"		"0"
 	}
 
@@ -122,7 +127,8 @@
 		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"84"
-		"tall"			"10"
+		"tall"			"12"
+		"textinsety"	"-4"
 		"visible"		"1"
 	}
 
@@ -134,7 +140,8 @@
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"84"
-		"tall"			"10"
+		"tall"			"12"
+		"textinsety"	"-4"
 		"visible"		"1"
 	}
 
@@ -146,7 +153,8 @@
 		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"84"
-		"tall"			"10"
+		"tall"			"12"
+		"textinsety"	"-4"
 		"visible"		"1"
 	}
 
@@ -158,7 +166,8 @@
 		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"84"
-		"tall"			"10"
+		"tall"			"12"
+		"textinsety"	"-4"
 		"visible"		"1"
 	}
 

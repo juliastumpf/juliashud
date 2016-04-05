@@ -75,6 +75,6 @@
 		"textInsetx"	"0"
 		"textInsety"	"4"
 		"font"			"juliaBlurMedium"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 	}
 }

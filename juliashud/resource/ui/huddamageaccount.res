@@ -43,7 +43,7 @@
 		"enabled"		"1"
         "labelText"     "%metal%"
         "textAlignment" "center"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
         "font"          "juliaBlurMedium"
     }
 }

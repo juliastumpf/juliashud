@@ -7,6 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"c-32"
 		"ypos"			"c50"
+		"ypos_minmode"			"c32"
 		"wide"			"64"
 		"tall"			"68"
 	}
@@ -76,6 +77,6 @@
 		"textInsetx"	"0"
 		"textInsety"	"4"
 		"font"			"juliaBlurMedium"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 	}
 }

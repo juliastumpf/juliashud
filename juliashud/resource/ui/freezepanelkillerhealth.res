@@ -61,7 +61,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"east"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
         "font"          "juliaBlurMedium"
 	}
 }

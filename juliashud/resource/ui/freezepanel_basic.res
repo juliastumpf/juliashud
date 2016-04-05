@@ -137,7 +137,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKillerShadow"
 			"font"			"juliaBlurSmall"
-			"fgcolor_override"	"juliaBG"
+			"fgcolor_override"	"juliaShadow"
 			"xpos"			"0"
 			"ypos"			"2"
 			"zpos"			"0"

@@ -1,5 +1,21 @@
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
+	"ItemBackground"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemBackground"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"BackgroundEngineer"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BackgroundEngineer"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
 	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
@@ -8,34 +24,26 @@
 		"enabled"		"0"
 	}
 
-	"ItemBackground"
+	"Divider"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemBackground"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Divider"
 		"visible"		"0"
 		"enabled"		"0"
-	}
-	"BackgroundEngineer"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BackgroundEngineer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-10"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"
-		"image"			"pipboy_engineer"
-		"tileImage"		"1"
-		"tileVertically" "1"
 	}
 
 	"BuildIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"BuildIconShadow"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"BuildIconShadow"
 		"visible"		"0"
 		"enabled"		"0"
 	}
@@ -47,6 +55,15 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+
+	"TitleLabelDropshadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelDropshadow"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
 	"CancelLabel"
 	{
 		"ControlName"	"CExLabel"

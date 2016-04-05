@@ -14,6 +14,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"80"
+		"xpos_minmode"	"128"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"122"
@@ -34,6 +35,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
 		"xpos"			"78"
+		"xpos_minmode"	"126"
 		"ypos"			"2"
 		"zpos"			"4"
 		"wide"			"122"
@@ -45,7 +47,7 @@
 		"textAlignment"	"west"
 		"textInsetx"	"0"
 		"font"			"juliaBlurLarge"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"bgcolor_override" "Blank"
 	}
 
@@ -54,6 +56,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"80"
+		"xpos_minmode"	"128"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"122"

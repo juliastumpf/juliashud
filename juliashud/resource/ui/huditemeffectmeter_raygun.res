@@ -7,6 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"c-32"
 		"ypos"			"c70"
+		"ypos_minmode"			"c102"
 		"wide"			"64"
 		"tall"			"4"
 		"MeterFG"		"juliaFG"

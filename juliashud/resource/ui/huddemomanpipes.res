@@ -85,7 +85,7 @@
 			"textInsetx"	"0"
 			"textInsety"	"-8"
 			"font"			"juliaBlurMedium"
-			"fgcolor"		"juliaBG"
+			"fgcolor"		"juliaShadow"
 			"alpha"			"255"
 		}
 	}

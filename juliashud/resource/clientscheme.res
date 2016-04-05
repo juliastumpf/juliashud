@@ -27,6 +27,8 @@ Scheme
 		"juliaBGT"			"0   0   0   150" //background color -- transparent
 		"juliaBGMainMenu"	"0   0   0   255" //background color -- main menu; set alpha <255 to see background image
 
+		"juliaShadow"		"0   0   0   64" //shadow color -- set alpha to 0 if you dont want shadows
+
 		"julia+"			"116 169 204 255" //used for positive things: overhealed health, healing numbers, etc.
 		"julia-"			"255 62  62  255" //used for negative things: low health/ammo, losing metal, etc.
 

@@ -19,18 +19,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundEngineer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-10"
-		"wide"			"32"
-		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"
-		"image"			"pipboy_engineer"
-		"tileImage"		"1"
-		"tileVertically" "1"
 	}
+
 
 	"BuildIcon"
 	{
@@ -40,10 +32,26 @@
 		"enabled"		"0"
 	}
 
+	"BuildIconShadow"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"BuildIconShadow"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"TitleLabelDropshadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelDropshadow"
 		"visible"		"0"
 		"enabled"		"0"
 	}

@@ -34,6 +34,8 @@
 		"enabled" "1"
 		"xpos"	"c40"
 		"ypos"	"c64"
+		"xpos_minmode"	"c96"
+		"ypos_minmode"	"c96"
 		"wide"	"256"
 		"tall"	"64"
 	}
@@ -73,8 +75,8 @@
 		"ypos"			"c-32"
 		"wide"			"64"
 		"tall"			"8"
-		"MeterFG"		"faceMeterFG"
-		"MeterBG"		"faceMeterBG"
+		"MeterFG"		"juliaFG"
+		"MeterBG"		"juliaBG"
 	}
 
 	HudMedicCharge
@@ -84,7 +86,10 @@
 		"enabled"		"1"
 		"xpos"	"c-32"
 		"ypos"	"c64"
+		"xpos_minmode"	"c-32"
+		"ypos_minmode"	"c96"
 		"wide"	"256"
+		"wide_minmode"	"512"
 		"tall"	"64"
 	}
 
@@ -95,10 +100,11 @@
 		"enabled"		"1"
 		"xpos"			"c-32"
 		"ypos"			"c70"
+		"ypos_minmode"			"c102"
 		"wide"			"64"
 		"tall"			"4"
-		"MeterFG"		"faceMeterFG"
-		"MeterBG"		"faceMeterBG"
+		"MeterFG"		"juliaFG"
+		"MeterBG"		"juliaBG"
 	}
 
 	HudBowCharge
@@ -110,8 +116,8 @@
 		"ypos"			"c78"
 		"wide"			"64"
 		"tall"			"4"
-		"MeterFG"		"faceMeterFG"
-		"MeterBG"		"faceMeterBG"
+		"MeterFG"		"juliaFG"
+		"MeterBG"		"juliaBG"
 	}
 
 	HudFlameRocketCharge
@@ -191,6 +197,8 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c40"
 		"ypos"					"c64"
+		"xpos_minmode"			"c96"
+		"ypos_minmode"			"c96"
 		"wide"					"256"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -202,6 +210,8 @@
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-96"
 		"ypos"					"c0"
+		"xpos_minmode"			"c-128"
+		"ypos_minmode"			"c32"
 		"wide"					"64"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -228,6 +238,8 @@
 		"enabled"	"1"
 		"xpos"		"c-172"
 		"ypos"		"c98"
+		"xpos_minmode"		"c-204"
+		"ypos_minmode"		"c130"
 		"wide"		"128"
 		"tall"		"256"
 	}
@@ -239,6 +251,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-128"
 		"ypos"		"c114"
+		"ypos_minmode"		"c146"
 		"wide"	 	"256"
 		"tall"	 	"20"
 		"priority"	"0"
@@ -251,6 +264,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-128"
 		"ypos"		"c114"
+		"ypos_minmode"		"c146"
 		"wide"	 	"256"
 		"tall"	 	"20"
 		"priority"	"0"
@@ -266,6 +280,7 @@
 		"enabled" 	"1"
 		"xpos"		"0"
 		"ypos"		"c46"
+		//"ypos_minmode"		"c78"
 		"wide"	 	"256"
 		"tall"	 	"20"
 		"priority"	"0"
@@ -278,9 +293,10 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"c-260"
-		"ypos"		"c54"
+		"xpos_minmode"		"c-292"
+		"ypos"		"0"
 		"wide"		"92"
-		"tall"		"140"
+		"tall"		"480"
 
 		"PaintBackgroundType"	"2"
 	}
@@ -291,9 +307,10 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"c-260"
-		"ypos"		"c-4"
+		"xpos_minmode"		"c-292"
+		"ypos"		"0"
 		"wide"		"92"
-		"tall"		"140"
+		"tall"		"480"
 
 		"PaintBackgroundType"	"2"
 	}
@@ -937,6 +954,8 @@
 		"enabled" 		"1"
 		"xpos"			"c48"
 		"ypos"			"c59"
+		"xpos_minmode"			"c104"
+		"ypos_minmode"			"c91"
 		"wide"			"84"
 		"tall"			"40"
 	}
@@ -948,6 +967,8 @@
 		"enabled" 		"1"
 		"xpos"			"c48"
 		"ypos"			"c49"
+		"xpos_minmode"			"c104"
+		"ypos_minmode"			"c81"
 		"wide"			"84"
 		"tall"			"50"
 	}
@@ -970,6 +991,8 @@
 		"enabled" 		"1"
 		"xpos"			"c48"
 		"ypos"			"c8"
+		"xpos_minmode"			"c104"
+		"ypos_minmode"			"c40"
 		"wide"			"40"
 		"tall"			"90"
 	}
@@ -981,6 +1004,8 @@
 		"enabled"		"1"
 		"xpos"			"c-32"
 		"ypos"			"c0"
+		"xpos_minmode"			"c24"
+		"ypos_minmode"			"c32"
 		"wide"			"256"
 		"tall"			"128"
 	}

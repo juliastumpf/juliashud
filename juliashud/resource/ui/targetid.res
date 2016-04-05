@@ -49,7 +49,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelShadow"
 		"font"			"juliaBlurSmall"
-		"fgcolor_override"		"juliaBG"
+		"fgcolor_override"		"juliaShadow"
 		"xpos"			"48"
 		"ypos"			"2"
 		"zpos"			"0"

@@ -73,7 +73,7 @@
 		"textAlignment"	"west"
 		"textInsetx"	"0"
 		"font"			"juliaBlurLarge"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"bgcolor_override" "Blank"
 	}
 	"AmmoInReserveShadow"
@@ -92,7 +92,7 @@
 		"textAlignment"	"east"
 		"textInsetx"	"0"
 		"font"			"juliaBlurMedium"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 	}
 	"AmmoInClipShadow"
 	{
@@ -110,7 +110,7 @@
 		"textAlignment"	"west"
 		"textInsetx"	"0"
 		"font"			"juliaBlurLarge"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"bgcolor_override" "Blank"
 	}
 

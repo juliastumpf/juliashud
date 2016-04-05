@@ -587,7 +587,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
 		"font"			"juliaBlurMedium"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"xpos"			"c-128"
 		"ypos"			"c-126"
 		"wide"			"256"
@@ -665,7 +665,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"proportionaltoparent"	"1"
 	}
 

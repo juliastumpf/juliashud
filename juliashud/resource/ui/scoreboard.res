@@ -24,15 +24,29 @@
 		"killstreak_width"	"16"
 		"killstreak_image_width" "8"
 	}
-	"TransparentViewmodelMask"
+	"eraser"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"TransparentViewmodelMask"
+		"fieldName"		"eraser"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-4"
 		"wide"			"f0"
 		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/eraser"
+		"scaleImage"	"1"
+	}
+	"eraser2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"eraser2"
+		"xpos"			"r320"
+		"ypos"			"16"
+		"zpos"			"-20"
+		"wide"			"320"
+		"tall"			"160"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/eraser"
@@ -136,7 +150,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"juliaBlueTeamLabelShadow"
 		"font"			"juliaBlurMedium"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"18"
@@ -183,7 +197,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
 		"font"			"juliaBlurMedium"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"18"
@@ -228,7 +242,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCountShadow"
 		"font"			"juliaBlurSmall"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"center"
 		"xpos"			"18"
@@ -298,7 +312,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"juliaRedTeamLabelShadow"
 		"font"			"juliaBlurMedium"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"west"
 		"xpos"			"r322"
@@ -345,7 +359,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
 		"font"			"juliaBlurMedium"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"r322"
@@ -393,7 +407,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCountShadow"
 		"font"			"juliaBlurSmall"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"center"
 		"xpos"			"r322"
@@ -466,7 +480,7 @@
 		"textinsety"	"-4"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 
 		if_mvm
 		{
@@ -541,7 +555,7 @@
 		"textinsety"	"-4"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 	}
 	"BluePlayerList"
 	{
@@ -885,7 +899,7 @@
 		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"juliaBG"
+		"fgcolor_override"	"juliaShadow"
 	}
 	"ServerLabelNew"
 	{
@@ -923,7 +937,7 @@
 		"textinsety"	"-4"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 
 		if_mvm
 		{
@@ -962,7 +976,7 @@
 		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"juliaBG"
+		"fgcolor"		"juliaShadow"
 	}
 	"HorizontalLine"
 	{
@@ -1304,7 +1318,7 @@
 			"textinsety"	"-8"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"juliaBG"
+			"fgcolor"		"juliaShadow"
 		}
 
 		"julia:Shadow"
@@ -1322,7 +1336,7 @@
 			"textinsety"	"-8"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"juliaBG"
+			"fgcolor"		"juliaShadow"
 		}
 
 		"juliaDeathsShadow"
@@ -1340,7 +1354,7 @@
 			"textinsety"	"-8"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"juliaBG"
+			"fgcolor"		"juliaShadow"
 		}
 
 		"julia:2Shadow"
@@ -1358,7 +1372,7 @@
 			"textinsety"	"-8"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"juliaBG"
+			"fgcolor"		"juliaShadow"
 		}
 		"juliaAssistsShadow"
 		{
@@ -1375,7 +1389,7 @@
 			"textinsety"	"-8"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"juliaBG"
+			"fgcolor"		"juliaShadow"
 		}
 
 		"KillsLabel"

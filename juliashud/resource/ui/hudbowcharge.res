@@ -9,7 +9,7 @@
 		"zpos"			"2"
 		"wide"			"64"
 		"tall"			"4"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }
