@@ -19,6 +19,7 @@ shoutouts to all the lovely people at teamfortress.tv and huds.tf for inspiring 
 
 ####julia's hud on the web:
 [steamgroup](http://steamcommunity.com/groups/juliashud)
+[tftv thread](http://www.teamfortress.tv/32850/julias-hud)
 
 ####todo:
 - mvm hud
