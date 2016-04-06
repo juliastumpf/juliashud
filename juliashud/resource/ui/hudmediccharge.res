@@ -13,8 +13,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"80"
-		"xpos_minmode"	"128"
+		"xpos_minmode"			"80"
+		"xpos"	"128"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"122"
@@ -34,8 +34,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"78"
-		"xpos_minmode"	"126"
+		"xpos_minmode"			"78"
+		"xpos"	"126"
 		"ypos"			"2"
 		"zpos"			"4"
 		"wide"			"122"
@@ -55,8 +55,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"80"
-		"xpos_minmode"	"128"
+		"xpos_minmode"			"80"
+		"xpos"	"128"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"122"

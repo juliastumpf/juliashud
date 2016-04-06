@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-32"
-		"ypos"			"c50"
-		"ypos_minmode"			"c32"
+		"ypos_minmode"			"c50"
+		"ypos"			"c32"
 		"wide"			"64"
 		"tall"			"68"
 	}
