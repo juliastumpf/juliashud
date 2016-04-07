@@ -1004,9 +1004,9 @@
 		"enabled"		"1"
 		"xpos_minmode"			"c-32"
 		"ypos_minmode"			"c0"
-		"xpos"			"c24"
+		"xpos"			"c-32" //24
 		"ypos"			"c32"
-		"wide"			"256"
+		"wide"			"320"
 		"tall"			"128"
 	}
 
