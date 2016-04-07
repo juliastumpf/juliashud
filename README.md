@@ -7,18 +7,22 @@ if you see anything missing or broken, please let me know!
 
 shoutouts to all the lovely people at teamfortress.tv and huds.tf for inspiring me to make my own hud and for helping me along the way <3
 
-#screenshots:
+####screenshots:
 [in-game screenshots](http://imgur.com/a/Rv8tK)
-[in-game screenshots\(cl\_hud_minmode 1\)](url=http://imgur.com/a/WseFi)
-[menu screenshots](url=http://imgur.com/a/uo6Eh)
 
-#download:
+[in-game screenshots \(cl\_hud\_minmode 1\)](http://imgur.com/a/WseFi)
+
+[menu screenshots](http://imgur.com/a/uo6Eh)
+
+####download:
 [download](https://github.com/juliastumpf/juliashud/archive/master.zip)
 
-#julia's hud on the web:[/h1]
+####julia's hud on the web:
 [steamgroup](http://steamcommunity.com/groups/juliashud)
 
-#todo:
--mvm hud
--captions support
--finish/revamp some menus
+[tftv thread](http://www.teamfortress.tv/32850/julias-hud)
+
+####todo:
+- mvm hud
+- captions support
+- finish/revamp some menus
