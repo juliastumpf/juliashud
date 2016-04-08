@@ -49,13 +49,15 @@
 		"labelText"		"choose a team"
 		"textAlignment" "west"
 		"xpos"			"48"
-		"ypos"			"16"
+		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"64"
-		"textinsety"	"-26"
+		"textinsetx"	"4"
+		"textinsety"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor" 		"juliaFG"
+		"use_proportional_insets" "1"
 	}
 
 	"SysMenu"
@@ -91,11 +93,11 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -137,11 +139,8 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -158,6 +157,10 @@
 
 		"command"		"jointeam blue"
 		"labelText"		"blu"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -183,11 +186,8 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -204,6 +204,10 @@
 
 		"command"		"jointeam spectate"
 		"labelText"		"spectate"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -229,11 +233,8 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -250,6 +251,10 @@
 
 		"command"		"jointeam auto"
 		"labelText"		"auto"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -408,7 +413,6 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"juliaMedium"
@@ -417,6 +421,8 @@
 		"paintborder"	"0"
 		"paintbackground" "0"
 		"fgColor_override" "juliaFG"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"labelText"		"%bluecount%"
 	}
@@ -430,7 +436,6 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"juliaMedium"
@@ -439,6 +444,8 @@
 		"paintborder"	"0"
 		"paintbackground" "0"
 		"fgColor_override" "juliaFG"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"labelText"		"%redcount%"
 	}

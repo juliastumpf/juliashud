@@ -51,13 +51,16 @@
 		"labelText"		"choose a class"
 		"textAlignment" "west"
 		"xpos"			"48"
-		"ypos"			"16"
+		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"64"
-		"textinsety"	"-26"
+		"textinsety"	"0"
+		"textinsetx"	"4"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor" 		"juliaFG"
+
+		"use_proportional_insets" "1"
 	}
 
 	"juliaScout"
@@ -69,11 +72,8 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -90,6 +90,10 @@
 
 		"command"		"select 1"
 		"labelText"		"scout"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -115,11 +119,8 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -136,6 +137,10 @@
 
 		"command"		"select 3"
 		"labelText"		"soldier"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -161,11 +166,8 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -182,6 +184,10 @@
 
 		"command"		"select 7"
 		"labelText"		"pyro"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -207,11 +213,9 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -228,6 +232,10 @@
 
 		"command"		"select 4"
 		"labelText"		"demo"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -253,11 +261,9 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -274,6 +280,10 @@
 
 		"command"		"select 6"
 		"labelText"		"heavy"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -299,11 +309,9 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -320,6 +328,10 @@
 
 		"command"		"select 9"
 		"labelText"		"engie"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -345,11 +357,9 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -366,6 +376,10 @@
 
 		"command"		"select 5"
 		"labelText"		"medic"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -391,11 +405,9 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -412,6 +424,10 @@
 
 		"command"		"select 2"
 		"labelText"		"sniper"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -437,11 +453,9 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -458,6 +472,10 @@
 
 		"command"		"select 8"
 		"labelText"		"spy"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -571,11 +589,9 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"use_proportional_insets" "0"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -592,6 +608,10 @@
 
 		"command"		"select 12"
 		"labelText"		"random"
+
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -665,7 +685,7 @@
 		"zpos"			"3"
 		"wide"			"640"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"0"
 		"enabled"		"0"
 		"wide"			"0"
@@ -696,7 +716,7 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"juliaMedium"
@@ -704,6 +724,8 @@
 		"fgColor_override" "juliaFG"
 
 		"labelText"		"%numScout%"
+		"textinsety"	"-5"
+		"use_proportional_insets" "1"
 	}
 
 	"numSoldier"
@@ -715,7 +737,7 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"juliaMedium"
@@ -723,6 +745,8 @@
 		"fgColor_override" "juliaFG"
 
 		"labelText"		"%numSoldier%"
+		"textinsety"	"-5"
+		"use_proportional_insets" "1"
 	}
 
 	"numPyro"
@@ -734,13 +758,15 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numPyro%"
+		"textinsety"	"-5"
+		"use_proportional_insets" "1"
 	}
 
 	"numDemoman"
@@ -752,13 +778,15 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numDemoman%"
+		"textinsety"	"-5"
+		"use_proportional_insets" "1"
 	}
 
 	"numHeavy"
@@ -770,13 +798,15 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numHeavy%"
+		"textinsety"	"-5"
+		"use_proportional_insets" "1"
 	}
 
 	"numEngineer"
@@ -788,13 +818,15 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numEngineer%"
+		"textinsety"	"-5"
+		"use_proportional_insets" "1"
 	}
 
 	"numMedic"
@@ -806,13 +838,15 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numMedic%"
+		"textinsety"	"-5"
+		"use_proportional_insets" "1"
 	}
 
 	"numSniper"
@@ -824,13 +858,15 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numSniper%"
+		"textinsety"	"-5"
+		"use_proportional_insets" "1"
 	}
 
 	"numSpy"
@@ -842,13 +878,15 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-8"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numSpy%"
+		"textinsety"	"-5"
+		"use_proportional_insets" "1"
 	}
 
 	"MvMUpgradeImageScout"

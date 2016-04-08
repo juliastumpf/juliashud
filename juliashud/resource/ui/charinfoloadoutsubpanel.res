@@ -58,11 +58,12 @@
 		"labelText"		"items"
 		"textAlignment" "west"
 		"xpos"			"48"
-		"ypos"			"16"
+		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"64"
-		"textinsety"	"-26"
 		"textinsetx"	"4"
+		"textinsety"	"0"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor" 		"juliaFG"
@@ -98,8 +99,9 @@
 		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 
-		"textinsetx"	"28"
-		"textinsety"	"-8"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -147,8 +149,9 @@
 		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 
-		"textinsetx"	"28"
-		"textinsety"	"-8"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -196,8 +199,9 @@
 		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 
-		"textinsetx"	"28"
-		"textinsety"	"-8"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -245,8 +249,9 @@
 		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 
-		"textinsetx"	"28"
-		"textinsety"	"-8"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -294,8 +299,9 @@
 		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 
-		"textinsetx"	"28"
-		"textinsety"	"-8"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -343,8 +349,9 @@
 		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 
-		"textinsetx"	"28"
-		"textinsety"	"-8"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -391,8 +398,9 @@
 		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 
-		"textinsetx"	"28"
-		"textinsety"	"-8"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -440,8 +448,9 @@
 		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 
-		"textinsetx"	"28"
-		"textinsety"	"-8"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -489,8 +498,9 @@
 		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 
-		"textinsetx"	"28"
-		"textinsety"	"-8"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 
 		"SubImage"
 		{
@@ -518,9 +528,10 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"textinsety"	"-8"
-		"use_proportional_insets" "0"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
+
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -564,9 +575,10 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"textinsety"	"-8"
-		"use_proportional_insets" "0"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
+
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -610,9 +622,10 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"textinsety"	"-8"
-		"use_proportional_insets" "0"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
+
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"
@@ -656,9 +669,10 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"28"
-		"textinsety"	"-8"
-		"use_proportional_insets" "0"
+		"textinsetx"	"18"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
+
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
 		"default"		"0"

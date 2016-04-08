@@ -167,6 +167,7 @@
 				"wide"			"32"
 				"tall"			"32"
 				"textinsety"	"16"
+				"use_proportional_insets" "1"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%respawntime%"

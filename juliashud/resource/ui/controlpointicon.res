@@ -52,11 +52,13 @@
 		"zpos"			"4"
 		"wide"			"32"
 		"tall"			"24"
-		"textinsety"	"-8"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"		"east"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 	}
 
 	"OverlayImage"
@@ -81,7 +83,6 @@
 		"zpos"			"0"
 		"wide"			"9"
 		"tall"			"12"
-		"textinsety"	"-4"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"60"
@@ -90,6 +91,9 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"juliaSmall"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 	}
 
 	"CPTimerBG"

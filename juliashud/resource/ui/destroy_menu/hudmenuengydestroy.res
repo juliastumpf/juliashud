@@ -42,7 +42,9 @@
 		"zpos"			"3"
 		"wide"			"54"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"!! destroy !!"
@@ -68,7 +70,9 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"0"
 	}
 
@@ -81,7 +85,9 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"0"
 	}
 
@@ -94,7 +100,9 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"0"
 	}
 
@@ -107,7 +115,9 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"0"
 	}
 
@@ -120,7 +130,9 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 	}
 
@@ -133,7 +145,9 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 	}
 
@@ -146,7 +160,9 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 	}
 
@@ -159,7 +175,9 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 	}
 

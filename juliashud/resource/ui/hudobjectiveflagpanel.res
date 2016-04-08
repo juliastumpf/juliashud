@@ -55,7 +55,9 @@
 		"zpos"			"8"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-4"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"
@@ -88,7 +90,9 @@
 		"zpos"			"7"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-4"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"
@@ -121,7 +125,9 @@
 		"zpos"			"8"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-4"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"
@@ -154,7 +160,9 @@
 		"zpos"			"7"
 		"wide"			"128"
 		"tall"			"24"
-		"textinsety"	"-4"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"
@@ -205,7 +213,9 @@
 		"zpos"			"4"
 		"wide"			"256"
 		"tall"			"12"
+
 		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"

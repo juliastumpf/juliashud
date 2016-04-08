@@ -19,6 +19,7 @@
 			"textAlignment"	"center"
 			"textinsetx"	"0"
 			"textinsety"	"-2"
+			"use_proportional_insets" "1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		""

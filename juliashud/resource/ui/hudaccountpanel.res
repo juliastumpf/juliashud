@@ -41,7 +41,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"textInsetx"	"0"
-		"textInsety"	"-8"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"font"			"juliaMedium"
 		"fgcolor"		"juliaFG"
 	}
@@ -60,7 +61,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"textInsetx"	"0"
-		"textInsety"	"-8"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"font"			"juliaBlurMedium"
 		"fgcolor"		"juliaShadow"
 	}

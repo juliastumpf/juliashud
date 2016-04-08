@@ -120,7 +120,9 @@
 		"zpos"			"20"
 		"wide"			"304"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -144,7 +146,9 @@
 		"zpos"			"18"
 		"wide"			"304"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -167,7 +171,9 @@
 		"zpos"			"4"
 		"wide"			"304"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -191,7 +197,9 @@
 		"zpos"			"2"
 		"wide"			"304"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -214,7 +222,9 @@
 		"zpos"			"10"
 		"wide"			"304"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -236,7 +246,9 @@
 		"zpos"			"10"
 		"wide"			"304"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -282,7 +294,9 @@
 		"zpos"			"20"
 		"wide"			"304"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -306,7 +320,9 @@
 		"zpos"			"18"
 		"wide"			"304"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -329,7 +345,9 @@
 		"zpos"			"4"
 		"wide"			"304"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -353,7 +371,9 @@
 		"zpos"			"2"
 		"wide"			"304"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -377,7 +397,9 @@
 		"zpos"			"10"
 		"wide"			"304"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -401,7 +423,9 @@
 		"zpos"			"8"
 		"wide"			"304"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -442,7 +466,9 @@
 		"zpos"			"3"
 		"wide"			"256"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"0"
 		"enabled"		"1"
 
@@ -463,7 +489,9 @@
 		"zpos"			"2"
 		"wide"			"256"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"		"juliaShadow"
@@ -505,7 +533,9 @@
 		"ypos"			"r16"
 		"wide"			"256"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"0"
 		"enabled"		"0"
 		"fgcolor"		"juliaFG"
@@ -522,7 +552,9 @@
 		"ypos"			"r22"
 		"wide"			"256"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -538,7 +570,9 @@
 		"zpos"			"-2"
 		"wide"			"256"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"juliaShadow"
@@ -608,7 +642,9 @@
 		"zpos"			"4"
 		"wide"			"256"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -626,7 +662,9 @@
 		"zpos"			"4"
 		"wide"			"256"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -865,7 +903,9 @@
 		"zpos"			"30"
 		"wide"			"512"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"juliaFG"
@@ -882,7 +922,9 @@
 		"zpos"			"28"
 		"wide"			"512"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"juliaShadow"
@@ -899,7 +941,9 @@
 		"zpos"			"3"
 		"wide"			"256"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -920,7 +964,9 @@
 		"zpos"			"2"
 		"wide"			"256"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"juliaShadow"
@@ -942,7 +988,9 @@
 		"zpos"			"30"
 		"wide"			"512"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"juliaFG"
@@ -959,7 +1007,9 @@
 		"zpos"			"28"
 		"wide"			"512"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"juliaShadow"
@@ -1216,7 +1266,9 @@
 			"zpos"			"30"
 			"wide"			"325"
 			"tall"			"24"
-			"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -1233,7 +1285,9 @@
 			"zpos"			"30"
 			"wide"			"32"
 			"tall"			"24"
-			"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -1250,7 +1304,9 @@
 			"zpos"			"30"
 			"wide"			"32"
 			"tall"			"24"
-			"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -1267,7 +1323,9 @@
 			"zpos"			"30"
 			"wide"			"32"
 			"tall"			"24"
-			"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -1284,7 +1342,9 @@
 			"zpos"			"30"
 			"wide"			"32"
 			"tall"			"24"
-			"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -1301,7 +1361,9 @@
 			"zpos"			"30"
 			"wide"			"32"
 			"tall"			"24"
-			"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"juliaShadow"
@@ -1319,7 +1381,9 @@
 			"zpos"			"30"
 			"wide"			"32"
 			"tall"			"24"
-			"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"juliaShadow"
@@ -1337,7 +1401,9 @@
 			"zpos"			"30"
 			"wide"			"32"
 			"tall"			"24"
-			"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"juliaShadow"
@@ -1355,7 +1421,9 @@
 			"zpos"			"30"
 			"wide"			"32"
 			"tall"			"24"
-			"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"juliaShadow"
@@ -1372,7 +1440,9 @@
 			"zpos"			"30"
 			"wide"			"32"
 			"tall"			"24"
-			"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"juliaShadow"

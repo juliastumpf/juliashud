@@ -29,6 +29,8 @@
 
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"-4"
+
+		"use_proportional_insets" "1"
 	}
 
 	"BackgroundHeader"

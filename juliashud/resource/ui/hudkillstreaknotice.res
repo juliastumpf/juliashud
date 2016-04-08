@@ -28,7 +28,8 @@
 		"zpos"			"2"
 		"wide"			"640"
 		"tall"			"12"
-		"textinsety"	"-4"
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"autoResize"	"0"
 		"fgcolor"		"juliaFG"
 	}

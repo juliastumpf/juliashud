@@ -572,7 +572,9 @@
 		"ypos"			"c-128"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"zpos"			"1"
 		"visible"		"1"
 		"enabled"		"1"
@@ -592,7 +594,9 @@
 		"ypos"			"c-126"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"zpos"			"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -639,7 +643,9 @@
 		"ypos"			"16"
 		"wide"			"64"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"zpos"			"5"
 		"visible"		"0"
 		"enabled"		"1"
@@ -658,7 +664,9 @@
 		"ypos"			"18"
 		"wide"			"64"
 		"tall"			"24"
-		"textinsety"	"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 		"zpos"			"5"
 		"visible"		"0"
 		"enabled"		"1"

@@ -66,10 +66,11 @@
 			"labelText"		"quickplay"
 			"textAlignment" "west"
 			"xpos"			"48"
-			"ypos"			"16"
+			"ypos"			"0"
 			"wide"			"640"
 			"tall"			"64"
-			"textinsety"	"-26"
+		"textinsety"	"0"
+		"use_proportional_insets" "1"
 			"textinsetx"	"4"
 			"visible"		"1"
 			"enabled"		"1"
@@ -100,7 +101,8 @@
 				"zpos"			"10"
 				"wide"			"256"
 				"tall"			"24"
-				"textinsety"	"-8"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 				"visible"		"0"
 				"enabled"		"0"
 				"fgcolor_override"	"juliaFG"
@@ -154,7 +156,8 @@
 					"zpos"			"10"
 					"wide"			"256"
 					"tall"			"24"
-					"textinsety"	"-8"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 					"visible"		"1"
 					"enabled"		"1"
 					"fgcolor_override"	"juliaFG"
@@ -172,7 +175,8 @@
 					"zpos"			"2"
 					"wide"			"f0"
 					"tall"			"12"
-					"textinsety"	"-4"
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -339,7 +343,9 @@
 					"zpos"			"2"
 					"wide"			"256"
 					"tall"			"24"
-					"texinsety"		"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 				}
 
 				"OptionCombo"
@@ -352,7 +358,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 					"editable"			"0"
 				}
 			}
@@ -379,7 +387,9 @@
 					"zpos"			"2"
 					"wide"			"256"
 					"tall"			"24"
-					"texinsety"		"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton0"
@@ -392,7 +402,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton1"
@@ -405,7 +417,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton2"
@@ -418,7 +432,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 			}
 
@@ -444,7 +460,9 @@
 					"zpos"			"2"
 					"wide"			"256"
 					"tall"			"24"
-					"texinsety"		"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton0"
@@ -457,7 +475,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton1"
@@ -470,7 +490,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton2"
@@ -483,7 +505,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 			}
 
@@ -509,7 +533,9 @@
 					"zpos"			"2"
 					"wide"			"256"
 					"tall"			"24"
-					"texinsety"		"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton0"
@@ -522,7 +548,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton1"
@@ -535,7 +563,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton2"
@@ -548,7 +578,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 			}
 
@@ -574,7 +606,9 @@
 					"zpos"			"2"
 					"wide"			"256"
 					"tall"			"24"
-					"texinsety"		"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton0"
@@ -587,7 +621,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton1"
@@ -600,7 +636,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton2"
@@ -613,7 +651,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 			}
 
@@ -639,7 +679,9 @@
 					"zpos"			"2"
 					"wide"			"256"
 					"tall"			"24"
-					"texinsety"		"-8"
+
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton0"
@@ -652,7 +694,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton1"
@@ -665,7 +709,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 
 				"RadioButton2"
@@ -678,7 +724,9 @@
 					"zpos"				"1"
 					"wide"				"256"
 					"tall"				"12"
-					"texinsety"			"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 				}
 			}
 

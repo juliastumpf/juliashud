@@ -10,7 +10,9 @@
 		"zpos"			"-1"
 		"wide"			"74"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry_360"
@@ -53,7 +55,9 @@
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%metal%"
@@ -87,7 +91,9 @@
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"12"
-		"textinsety"	"-4"
+
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"1"
