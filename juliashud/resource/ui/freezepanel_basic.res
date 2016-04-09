@@ -128,7 +128,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"64"
+			"textinsetx"	"40"
 			"labelText"		"%killername%"
 			"textAlignment"		"west"
 		}
@@ -150,7 +150,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"64"
+			"textinsetx"	"40"
 			"labelText"		"%killername%"
 			"textAlignment"		"west"
 		}

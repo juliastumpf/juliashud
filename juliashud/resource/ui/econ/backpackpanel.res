@@ -33,7 +33,7 @@
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
 
-		"page_button_y"	"398"
+		"page_button_y"	"500"
 		"page_button_x_delta" "0"
 		"page_button_y_delta" "0"
 		"page_button_per_row" "40"
@@ -64,8 +64,8 @@
 				"textAlignment"	"center"
 				"labelText"		"%page%"
 				"font"				"juliaSmall"
-		"textinsety"	"-2"
-		"use_proportional_insets" "1"
+				"textinsety"	"-2"
+				"use_proportional_insets" "1"
 			}
 
 			"New"
@@ -136,8 +136,8 @@
 		"zpos"			"105"
 		"wide"			"640"
 		"tall"			"4"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"juliaBG"
 	}
 
@@ -375,72 +375,108 @@
 		}
 	}
 
-	//"PrevPageButton"
-	//{
-	//	"ControlName"	"CExButton"
-	//	"fieldName"		"PrevPageButton"
-	//	"xpos"			"c195"
-	//	"ypos"			"290"
-	//	"zpos"			"1"
-	//	"wide"			"20"
-	//	"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"
-	//	"enabled"		"1"
-	//	"tabPosition"	"0"
-	//	"labelText"		"<"
-	//	"font"			"HudFontSmallBold"
-	//	"textAlignment"	"center"
-	//	"dulltext"		"0"
-	//	"brighttext"	"0"
-	//	"Command"		"prevpage"
-	//	"sound_depressed"	"UI/buttonclick.wav"
-	//	"sound_released"	"UI/buttonclickrelease.wav"
-	//}
-	//
-	//"CurPageLabel"
-	//{
-	//	"ControlName"	"CExLabel"
-	//	"fieldName"		"CurPageLabel"
-	//	"font"			"HudFontSmallBold"
-	//	"labelText"		"%backpackpage%"
-	//	"textAlignment"	"center"
-	//	"xpos"			"c220"
-	//	"ypos"			"290"
-	//	"zpos"			"1"
-	//	"wide"			"40"
-	//	"tall"			"20"
-	//	"autoResize"	"1"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"
-	//	"enabled"		"1"
-	//	"fgcolor_override" "200 80 60 255"
-	//}
-	//
-	//"NextPageButton"
-	//{
-	//	"ControlName"	"CExButton"
-	//	"fieldName"		"NextPageButton"
-	//	"xpos"			"c265"
-	//	"ypos"			"290"
-	//	"zpos"			"1"
-	//	"wide"			"20"
-	//	"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"
-	//	"enabled"		"1"
-	//	"tabPosition"	"0"
-	//	"labelText"		">"
-	//	"font"			"HudFontSmallBold"
-	//	"textAlignment"	"center"
-	//	"dulltext"		"0"
-	//	"brighttext"	"0"
-	//	"Command"		"nextpage"
-	//	"sound_depressed"	"UI/buttonclick.wav"
-	//	"sound_released"	"UI/buttonclickrelease.wav"
-	//}
+	"PrevPageButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"PrevPageButton"
+		"xpos"			"c-320"
+		"ypos"			"398"
+		"zpos"			"400"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"prevpage"
+
+		"border_default"	"juliaNone"
+		"border_armed"		"juliaNone"
+
+		"paintbackground"	"0"
+		"defaultFgColor_override" "juliaFG"
+		"armedFgColor_override" "juliaFG"
+		"depressedFgColor_override" "juliaFG"
+
+		"image_default"		"replay/thumbnails/arrowleft"
+		"image_armed"		"replay/thumbnails/arrowleftinverse"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+		}
+	}
+
+	"CurPageLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurPageLabel"
+		"font"			"juliaMedium"
+		"labelText"		"%backpackpage%"
+		"textAlignment"	"west"
+		"xpos"			"c-288"
+		"ypos"			"398"
+		"zpos"			"1"
+		"wide"			"256"
+		"tall"			"24"
+		"textinsety"	"-7"
+		"use_proportional_insets" "1"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "juliaFG"
+	}
+
+	"NextPageButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"NextPageButton"
+		"xpos"			"c-304"
+		"ypos"			"398"
+		"zpos"			"100"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"Command"		"nextpage"
+
+		"border_default"	"juliaNone"
+		"border_armed"		"juliaNone"
+
+		"paintbackground"	"0"
+		"defaultFgColor_override" "juliaFG"
+		"armedFgColor_override" "juliaFG"
+		"depressedFgColor_override" "juliaFG"
+
+		"image_default"		"replay/thumbnails/arrowright"
+		"image_armed"		"replay/thumbnails/arrowrightinverse"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+		}
+	}
 
 	"DragToNextPageButton"
 	{
@@ -460,10 +496,14 @@
 		"font"			"juliaSmall"
 		"textAlignment"	"center"
 		"border"		"juliaWhite"
-		"paintborder"	"1"
+		"paintborder"	"0"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		""
+
+
+		"paintbackground"	"0"
+		"bgcolor"		"juliaBG"
 	}
 	"DragToPrevPageButton"
 	{
@@ -483,10 +523,14 @@
 		"font"			"juliaSmall"
 		"textAlignment"	"center"
 		"border"		"juliaWhite"
-		"paintborder"	"1"
+		"paintborder"	"0"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		""
+
+
+		"paintbackground"	"0"
+		"bgcolor"		"juliaBG"
 	}
 
 	"CancelApplyToolButton"
