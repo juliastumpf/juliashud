@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"labelText"		"%progresscount%"
 		"textAlignment"	"west"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"font"			"juliaMedium"
 		"fgcolor"		"juliaFG"

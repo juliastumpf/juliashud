@@ -47,7 +47,7 @@
 		"wide"			"f0"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
@@ -64,7 +64,7 @@
 		"wide"			"640"
 		"tall"			"12"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"

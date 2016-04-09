@@ -145,7 +145,7 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"24"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"visible"		"1"
 		"enabled"		"1"
 		"textinsetx"	"18"

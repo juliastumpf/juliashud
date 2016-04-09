@@ -57,7 +57,7 @@
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"		"east"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 	}
 
@@ -92,7 +92,7 @@
 		"wrap"			"0"
 		"font"			"juliaSmall"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 	}
 

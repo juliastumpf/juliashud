@@ -573,7 +573,7 @@
 		"wide"			"256"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"zpos"			"1"
 		"visible"		"1"
@@ -595,7 +595,7 @@
 		"wide"			"256"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"zpos"			"0"
 		"visible"		"1"
@@ -644,7 +644,7 @@
 		"wide"			"64"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"zpos"			"5"
 		"visible"		"0"
@@ -665,7 +665,7 @@
 		"wide"			"64"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"zpos"			"5"
 		"visible"		"0"

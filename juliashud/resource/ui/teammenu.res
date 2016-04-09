@@ -96,7 +96,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"font"			"juliaMedium"
 		"textAlignment"	"west"
@@ -159,7 +159,7 @@
 		"labelText"		"blu"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -206,7 +206,7 @@
 		"labelText"		"spectate"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -253,7 +253,7 @@
 		"labelText"		"auto"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -421,7 +421,7 @@
 		"paintborder"	"0"
 		"paintbackground" "0"
 		"fgColor_override" "juliaFG"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"labelText"		"%bluecount%"
@@ -444,7 +444,7 @@
 		"paintborder"	"0"
 		"paintbackground" "0"
 		"fgColor_override" "juliaFG"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"labelText"		"%redcount%"

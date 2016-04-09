@@ -121,7 +121,7 @@
 		"wide"			"304"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -147,7 +147,7 @@
 		"wide"			"304"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -172,7 +172,7 @@
 		"wide"			"304"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -198,7 +198,7 @@
 		"wide"			"304"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -295,7 +295,7 @@
 		"wide"			"304"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -321,7 +321,7 @@
 		"wide"			"304"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -346,7 +346,7 @@
 		"wide"			"304"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -372,7 +372,7 @@
 		"wide"			"304"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -904,7 +904,7 @@
 		"wide"			"512"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
@@ -923,7 +923,7 @@
 		"wide"			"512"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
@@ -989,7 +989,7 @@
 		"wide"			"512"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1008,7 +1008,7 @@
 		"wide"			"512"
 		"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1267,7 +1267,7 @@
 			"wide"			"325"
 			"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1286,7 +1286,7 @@
 			"wide"			"32"
 			"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1305,7 +1305,7 @@
 			"wide"			"32"
 			"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1324,7 +1324,7 @@
 			"wide"			"32"
 			"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1343,7 +1343,7 @@
 			"wide"			"32"
 			"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1362,7 +1362,7 @@
 			"wide"			"32"
 			"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1382,7 +1382,7 @@
 			"wide"			"32"
 			"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1402,7 +1402,7 @@
 			"wide"			"32"
 			"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1422,7 +1422,7 @@
 			"wide"			"32"
 			"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1441,7 +1441,7 @@
 			"wide"			"32"
 			"tall"			"24"
 
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"

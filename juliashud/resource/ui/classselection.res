@@ -92,7 +92,7 @@
 		"labelText"		"scout"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -139,7 +139,7 @@
 		"labelText"		"soldier"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -186,7 +186,7 @@
 		"labelText"		"pyro"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -234,7 +234,7 @@
 		"labelText"		"demo"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -282,7 +282,7 @@
 		"labelText"		"heavy"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -330,7 +330,7 @@
 		"labelText"		"engie"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -378,7 +378,7 @@
 		"labelText"		"medic"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -426,7 +426,7 @@
 		"labelText"		"sniper"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -474,7 +474,7 @@
 		"labelText"		"spy"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
@@ -610,7 +610,7 @@
 		"labelText"		"random"
 
 		"textinsetx"	"18"
-		"textinsety"	"-6"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 
 		"SubImage"
