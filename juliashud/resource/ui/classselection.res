@@ -724,7 +724,7 @@
 		"fgColor_override" "juliaFG"
 
 		"labelText"		"%numScout%"
-		"textinsety"	"-5"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 	}
 
@@ -745,7 +745,7 @@
 		"fgColor_override" "juliaFG"
 
 		"labelText"		"%numSoldier%"
-		"textinsety"	"-5"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 	}
 
@@ -765,7 +765,7 @@
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numPyro%"
-		"textinsety"	"-5"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 	}
 
@@ -785,7 +785,7 @@
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numDemoman%"
-		"textinsety"	"-5"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 	}
 
@@ -805,7 +805,7 @@
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numHeavy%"
-		"textinsety"	"-5"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 	}
 
@@ -825,7 +825,7 @@
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numEngineer%"
-		"textinsety"	"-5"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 	}
 
@@ -845,7 +845,7 @@
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numMedic%"
-		"textinsety"	"-5"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 	}
 
@@ -865,7 +865,7 @@
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numSniper%"
-		"textinsety"	"-5"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 	}
 
@@ -885,7 +885,7 @@
 		"textAlignment"	"west"
 		"fgColor_override" "juliaFG"
 		"labelText"		"%numSpy%"
-		"textinsety"	"-5"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 	}
 
