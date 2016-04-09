@@ -35,7 +35,7 @@ Scheme
 		"juliaRed"			"255 62  62  255" //used for red team colored things
 		"juliaBlue"			"116 169 204 255" //used for blu team colored things
 
-		"juliaGreen"		"0   64  255 255" //used for the pip-boy
+		"juliaGreen"		"0   255 64  255" //used for the pip-boy
 
 		// base colors
 
@@ -3136,34 +3136,33 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/tournament_panel_brown"
-			//"image"					"../hud/color_panel_browner"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
+			"image"					"replay/thumbnails/border"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
 		}
 		TFFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_brown_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"
+			"image"					"replay/thumbnails/border"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
 		}
 		TFFatLineBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../hud/color_panel_brown"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"
+			"image"					"replay/thumbnails/border"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -3222,14 +3221,42 @@ Scheme
 		}
 		TFFatLineBorderClearBG
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "juliaFG"
+					"offset" "0 0"
+				}
+			}
 
-			"image"					"../hud/color_panel_clear"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"
+			Right
+			{
+				"1"
+				{
+					"color" "juliaFG"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "juliaFG"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "juliaFG"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		ToolTipBorder
