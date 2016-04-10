@@ -69,13 +69,14 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"320"
-		"tall"			"24"
-		"textinsety"	"-8"
+		"tall"			"12"
+		"textinsety"	"-2"
+		"use_proportional_insets" "1"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%text%"
 		"textAlignment"	"West"
-		"font"			"juliaMedium"
+		"font"			"juliaSmall"
 	}
 }

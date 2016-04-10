@@ -167,8 +167,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labeltext"		"x"
-		"textinsety"	"-2"
-		"use_proportional_insets" "1"
+			"textinsety"	"-2"
+			"use_proportional_insets" "1"
 			"font"			"juliaSmall"
 			"textAlignment"	"center"
 			"default"		"0"
@@ -201,8 +201,8 @@
 			"zpos"			"100"
 			"wide"			"320"
 			"tall"			"12"
-		"textinsety"	"-2"
-		"use_proportional_insets" "1"
+			"textinsety"	"-2"
+			"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"juliaBG"
@@ -1598,6 +1598,7 @@
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"visible"		"0"
 		"enabled"		"0"
+		"ypos"			"r0"
 	}
 
 	"MOTD_Panel"
@@ -1667,6 +1668,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterLine"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"FreeTrialPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"FreeTrialPanel"
+		"ypos"			"r0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}

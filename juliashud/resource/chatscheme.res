@@ -78,7 +78,7 @@ Scheme
 		FrameSystemButton.DisabledIcon	""
 		FrameTitleBar.Font				"UiBold"		[$WIN32]
 		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
-		FrameTitleBar.TextColor			"0 0 0 0"
+		FrameTitleBar.TextColor			"juliaFG"
 		FrameTitleBar.BgColor			"0 0 0 0"
 		FrameTitleBar.DisabledTextColor	"0 0 0 0"
 		FrameTitleBar.DisabledBgColor	"0 0 0 0"
@@ -94,21 +94,21 @@ Scheme
 		Label.DisabledFgColor1			"juliaFG"
 		Label.DisabledFgColor2			"juliaFG"
 
-		ListPanel.TextColor					"0 0 0 0"
-		ListPanel.TextBgColor				"0 0 0 0"
-		ListPanel.BgColor					"0 0 0 0"
-		ListPanel.SelectedTextColor			"0 0 0 0"
-		ListPanel.SelectedBgColor			"0 0 0 0"
-		ListPanel.SelectedOutOfFocusBgColor	"0 0 0 0"
-		ListPanel.EmptyListInfoTextColor	"0 0 0 0"
+		ListPanel.TextColor					"juliaFG"
+		ListPanel.TextBgColor				"0 0 0 255"
+		ListPanel.BgColor					"0 0 0 255"
+		ListPanel.SelectedTextColor			"0 0 0 255"
+		ListPanel.SelectedBgColor			"juliaFG"
+		ListPanel.SelectedOutOfFocusBgColor	"juliaFG"
+		ListPanel.EmptyListInfoTextColor	"juliaFG"
 
-		Menu.TextColor					"0 0 0 0"
+		Menu.TextColor					"juliaFG"
 		Menu.BgColor					"0 0 0 0"
 		Menu.ArmedTextColor				"0 0 0 0"
 		Menu.ArmedBgColor				"0 0 0 0"
 		Menu.TextInset					"0"
 
-		Panel.FgColor					"0 0 0 0"
+		Panel.FgColor					"juliaFG"
 		Panel.BgColor					"0 0 0 0"
 
 		ProgressBar.FgColor				"0 0 0 0"
@@ -121,10 +121,10 @@ Scheme
 		RadioButton.TextColor			"0 0 0 0"
 		RadioButton.SelectedTextColor	"0 0 0 0"
 
-		RichText.TextColor				"0 0 0 0"
+		RichText.TextColor				"juliaFG"
 		RichText.BgColor				"0 0 0 0"
-		RichText.SelectedTextColor		"0 0 0 0"
-		RichText.SelectedBgColor		"0 0 0 0"
+		RichText.SelectedTextColor		"0 0 0 255"
+		RichText.SelectedBgColor		"juliaFG"
 
 		ScrollBar.Wide					0
 
@@ -138,16 +138,16 @@ Scheme
 		ScrollBarSlider.FgColor				"0 0 0 0"			// nob color
 		ScrollBarSlider.BgColor				"0 0 0 0"	// slider background color
 
-		SectionedListPanel.HeaderTextColor	"0 0 0 0"
+		SectionedListPanel.HeaderTextColor	"juliaFG"
 		SectionedListPanel.HeaderBgColor	"0 0 0 0"
 		SectionedListPanel.DividerColor		"0 0 0 0"
-		SectionedListPanel.TextColor		"0 0 0 0"
-		SectionedListPanel.BrightTextColor	"0 0 0 0"
-		SectionedListPanel.BgColor			"0 0 0 0"
-		SectionedListPanel.SelectedTextColor			"0 0 0 0"
-		SectionedListPanel.SelectedBgColor				"0 0 0 0"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"0 0 0 0"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"0 0 0 0"
+		SectionedListPanel.TextColor		"juliaFG"
+		SectionedListPanel.BrightTextColor	"juliaFG"
+		SectionedListPanel.BgColor			"0 0 0 255"
+		SectionedListPanel.SelectedTextColor			"0 0 0 255"
+		SectionedListPanel.SelectedBgColor				"juliaFG"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"0 0 0 255"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"juliaFG"
 
 		Slider.NobColor				"0 0 0 0"
 		Slider.TextColor			"0 0 0 0"
@@ -156,13 +156,13 @@ Scheme
 		Slider.DisabledTextColor2	"0 0 0 0"
 
 		TextEntry.TextColor			"juliaFG"
-		TextEntry.BgColor			"0 0 0 0"
+		TextEntry.BgColor			"0 0 0 255"
 		TextEntry.CursorColor		"juliaFG"
 		TextEntry.DisabledTextColor	"juliaFG"
-		TextEntry.DisabledBgColor	"0 0 0 0"
-		TextEntry.SelectedTextColor	"juliaFG"
-		TextEntry.SelectedBgColor	"juliaBG"
-		TextEntry.OutOfFocusSelectedBgColor	"juliaBG"
+		TextEntry.DisabledBgColor	"0 0 0 255"
+		TextEntry.SelectedTextColor	"0 0 0 255"
+		TextEntry.SelectedBgColor	"juliaFG"
+		TextEntry.OutOfFocusSelectedBgColor	"juliaFG"
 		TextEntry.FocusEdgeColor	"0 0 0 0"
 
 		ToggleButton.SelectedTextColor	"0 0 0 0"
@@ -190,7 +190,7 @@ Scheme
 		NewGame.SelectionColor		"0 0 0 0"
 		NewGame.DisabledColor		"0 0 0 0"
 
-		TFColors.ChatTextYellow		"juliaFG"     //chat history base text
+		TFColors.ChatTextYellow		"255 255 255 255"     //chat history base text
 		TFColors.ChatTextTeamBlue	"juliaBlue"
 		TFColors.ChatTextTeamRed	"juliaRed"
 	}
@@ -404,13 +404,13 @@ Scheme
 		FrameBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 
-			"image"					""
-			"src_corner_height"		"0"				// pixels inside the image
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"image"					"replay/thumbnails/border"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
 		}
 
 		DepressedBorder

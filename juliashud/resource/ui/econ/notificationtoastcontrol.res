@@ -72,7 +72,7 @@
 		"zpos"			"10"
 		"wide"			"16"
 		"tall"			"16"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labeltext"		""
 		"default"		"0"
