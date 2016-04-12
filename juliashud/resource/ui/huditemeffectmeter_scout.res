@@ -11,7 +11,7 @@
 		"wide"			"64"
 		"tall"			"4"
 		"MeterFG"		"juliaFG"
-		"MeterBG"		"juliaBG"
+		"MeterBG"		"juliaBGT"
 		"x_offset"		"0"
 	}
 

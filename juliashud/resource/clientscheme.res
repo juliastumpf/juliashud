@@ -27,7 +27,7 @@ Scheme
 		"juliaBGT"			"0   0   0   150" //background color -- transparent
 		"juliaBGMainMenu"	"0   0   0   255" //background color -- main menu; set alpha <255 to see background image
 
-		"juliaShadow"		"0   0   0   64" //shadow color -- set alpha to 0 if you dont want shadows
+		"juliaShadow"		"0   0   0   128" //shadow color -- set alpha to 0 if you dont want shadows
 
 		"julia+"			"116 169 204 255" //used for positive things: overhealed health, healing numbers, etc.
 		"julia-"			"255 62  62  255" //used for negative things: low health/ammo, losing metal, etc.
@@ -330,12 +330,12 @@ Scheme
 		HTML.BgColor					"Blank"
 
 		ProgressBar.FgColor				"juliaFG"
-		ProgressBar.BgColor				"juliaBG"
+		ProgressBar.BgColor				"juliaBGT"
 
 		CircularProgressBar.FgColor		"juliaFG"
 		CircularProgressBar.BgColor		"juliaFG"
 
-		"BuildingHealthBar.BgColor"		"juliaBG"
+		"BuildingHealthBar.BgColor"		"juliaBGT"
 		"BuildingHealthBar.Health"		"juliaFG"
 		"BuildingHealthBar.LowHealth"	"julia-"
 
@@ -398,20 +398,20 @@ Scheme
 		WizardSubPanel.BgColor		"Blank"
 
 		TimerProgress.Active		"juliaFG"
-		TimerProgress.InActive		"juliaBG"
+		TimerProgress.InActive		"juliaBGT"
 		TimerProgress.Warning		"julia-"
 
 		HudObjectives.FgColor		"juliaFG"
-		HudObjectives.BgColor		"juliaBG"
+		HudObjectives.BgColor		"juliaBGT"
 		HudObjectives.BorderColor	"juliaFG"
 
 		HudProgressBar.Active		"juliaFG"
 		HudProgressBar.InActive		"juliaBG"
 
 		HudCaptureIcon.Active		"juliaFG"
-		HudCaptureIcon.InActive		"juliaBG"
+		HudCaptureIcon.InActive		"juliaBGT"
 		HudCaptureProgressBar.Active	"juliaFG"
-		HudCaptureProgressBar.InActive	"juliaBG"
+		HudCaptureProgressBar.InActive	"juliaBGT"
 
 		// scheme-specific colors
 		"FgColor"		"juliaFG"

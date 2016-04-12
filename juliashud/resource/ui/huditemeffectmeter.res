@@ -11,7 +11,7 @@
 		"wide"			"64"
 		"tall"			"4"
 		"MeterFG"		"faceMeterFG"
-		"MeterBG"		"faceMeterBG"
+		"MeterBG"		"faceMeterBGT"
 	}
 
 	"ItemEffectMeterBG"
