@@ -178,3 +178,11 @@ event OvertimeLabelPulseRed
 event SuddenDeathLabelPulseRed
 {
 }
+
+//===========================================
+
+event DamagedPlayer
+{
+	Animate	crosshair2 	Alpha		"255"		Linear 0 0
+	Animate	crosshair2 	Alpha		"0"			Linear 0.1 0.1
+}

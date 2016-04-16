@@ -76,7 +76,7 @@
 
 		if_comp
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 
@@ -95,7 +95,7 @@
 
 		if_comp
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 

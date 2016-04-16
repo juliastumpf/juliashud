@@ -84,6 +84,21 @@
 			"color_notready"	"juliaBG"
 
 
+			"eraser"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"eraser"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-4"
+				"wide"			"320"
+				"tall"			"32"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/eraser"
+				"scaleImage"	"1"
+			}
+
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -143,8 +158,32 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"		"juliaBG"
+				"bgcolor_override"		"juliaBGT"
 				"PaintBackgroundType"	"0"
+				"border"		"juliaWhite"
+
+				if_competitive
+				{
+					"wide"			"p1"
+					"tall"			"p1"
+					"proportionaltoparent" "1"
+				}
+			}
+
+			"classimagebg2"
+			{
+				"ControlName"		"Panel"
+				"fieldName"		"classimagebg2"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"100"
+				"wide"			"32"
+				"tall"			"32"
+				"visible"		"1"
+				"enabled"		"1"
+				"bgcolor_override"		"Blank"
+				"PaintBackgroundType"	"0"
+				"border"		"juliaWhite"
 
 				if_competitive
 				{

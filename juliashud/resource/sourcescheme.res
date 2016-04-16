@@ -39,7 +39,7 @@ Scheme
 		"TFMediumBrown"		        "0 0 255 255"
 
 		//server browser quick play show servers
-		"QuickListBGSelected"		"0  0  0 255"
+		"QuickListBGSelected"		"64  64  64 255"
 		"QuickListBGDeselected"     "0  0  0 255"
 
 		"White"     "255 255 255 255"    //tab title text, base00

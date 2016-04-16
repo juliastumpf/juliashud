@@ -16,6 +16,67 @@
 		"scaleImage"	"1"
 	}
 
+	"crosshair"
+	{
+		"controlName" "CExLabel"
+		"fieldName" "crosshair"
+		"visible" "0"
+		"enabled" "0"
+		"xpos" "c-32"
+		"ypos" "c-32"
+		"zpos" "0"
+		"wide" "64"
+		"tall" "64"
+		"textinsety"	"-11"
+		"use_proportional_insets" "0"
+
+		"font" "juliaMedium"
+		"labelText" "."
+		"fgcolor" "juliaFG"
+		"textAlignment" "center"
+	}
+
+	"crosshairShadow"
+	{
+		"controlName" "CExLabel"
+		"fieldName" "crosshairShadow"
+		"visible" "0"
+		"enabled" "0"
+		"xpos" "c-32"
+		"ypos" "c-32"
+		"zpos" "-100"
+		"wide" "64"
+		"tall" "64"
+		"textinsety"	"-11"
+		"use_proportional_insets" "0"
+
+		"font" "juliaBlurMedium"
+		"labelText" "."
+		"fgcolor" "0 0 0 255"
+		"textAlignment" "center"
+	}
+
+	"crosshair2"
+	{
+		"controlName" "CExLabel"
+		"fieldName" "crosshair2"
+		"visible" "0"
+		"enabled" "0"
+		"xpos" "c-32"
+		"ypos" "c-32"
+		"zpos" "-1"
+		"wide" "64"
+		"tall" "64"
+		"alpha"		"0"
+		"textinsety"	"-3"
+		"use_proportional_insets" "0"
+
+		"font" "juliaMedium"
+		"labelText" "◦"
+		"fgcolor" "juliaFG"
+		"textAlignment" "center"
+	}
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

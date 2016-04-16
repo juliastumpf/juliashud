@@ -156,10 +156,10 @@ Scheme
 		Slider.DisabledTextColor2	"0 0 0 0"
 
 		TextEntry.TextColor			"juliaFG"
-		TextEntry.BgColor			"0 0 0 255"
+		TextEntry.BgColor			"0 0 0 0"
 		TextEntry.CursorColor		"juliaFG"
 		TextEntry.DisabledTextColor	"juliaFG"
-		TextEntry.DisabledBgColor	"0 0 0 255"
+		TextEntry.DisabledBgColor	"0 0 0 0"
 		TextEntry.SelectedTextColor	"0 0 0 255"
 		TextEntry.SelectedBgColor	"juliaFG"
 		TextEntry.OutOfFocusSelectedBgColor	"juliaFG"
