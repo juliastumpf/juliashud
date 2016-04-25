@@ -227,10 +227,10 @@
 			"enabled"		"0"
 		}
 	}
-	"WinPanelBG"
+	"WinPanelBGBorder"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"WinPanelBG"
+		"fieldName"		"WinPanelBGBorder"
 		"visible"		"0"
 		"enabled"		"0"
 	}
