@@ -5232,8 +5232,6 @@ Scheme
 			"name" "Noto Sans"
 			"range" "0x0000 0xFFFFF"
 		}
-
-		}
 		//"9"
 		//{
 		//	"font" "fonts/crosshairs.ttf"
