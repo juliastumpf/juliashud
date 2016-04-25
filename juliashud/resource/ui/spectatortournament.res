@@ -37,9 +37,9 @@
 				"ypos"			"0"
 				"zpos"			"-4"
 				"wide"			"320"
-				"tall"			"32"
-				"visible"		"1"
-				"enabled"		"1"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"replay/thumbnails/eraser"
 				"scaleImage"	"1"
 			}

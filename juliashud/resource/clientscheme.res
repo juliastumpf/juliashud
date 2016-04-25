@@ -3166,25 +3166,13 @@ Scheme
 		}
 		TFFatLineBorderRedBGOpaque
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-
-			"image"					"../hud/color_panel_red_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"
+			"color" "Blank"
+			"offset" "0 0"
 		}
 		TFFatLineBorderRedBGMoreOpaque
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-
-			"image"					"../hud/color_panel_red_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"color" "Blank"
+			"offset" "0 0"
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
@@ -3199,75 +3187,23 @@ Scheme
 		}
 		TFFatLineBorderRedBG
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-
-			"image"					"../hud/color_panel_red"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"
+			"color" "Blank"
+			"offset" "0 0"
 		}
 		TFFatLineBorderBlueBG
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-
-			"image"					"../hud/color_panel_blu"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"
+			"color" "Blank"
+			"offset" "0 0"
 		}
 		TFFatLineBorderBlueBGOpaque
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-
-			"image"					"../hud/color_panel_blu_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"
+			"color" "Blank"
+			"offset" "0 0"
 		}
 		TFFatLineBorderClearBG
 		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "juliaFG"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "juliaFG"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "juliaFG"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "juliaFG"
-					"offset" "0 0"
-				}
-			}
+			"color" "Blank"
+			"offset" "0 0"
 		}
 
 		ToolTipBorder
