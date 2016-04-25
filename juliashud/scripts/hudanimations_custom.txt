@@ -186,3 +186,15 @@ event DamagedPlayer
 	Animate	crosshair2 	Alpha		"255"		Linear 0 0
 	Animate	crosshair2 	Alpha		"0"			Linear 0.1 0.1
 }
+
+//===========================================
+
+event WinPanel_CompPos
+{
+	//Animate WinPanel ypos 115 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+	//Animate WinPanel ypos 215 Linear 0 0
+}
