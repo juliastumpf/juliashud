@@ -198,3 +198,16 @@ event WinPanel_NormalPos
 {
 	//Animate WinPanel ypos 215 Linear 0 0
 }
+
+//===========================================
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"-320 32"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-112 32"	Spline 0.001 0.1
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-112 32"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"-320 32"	Spline 0.001 0.1
+}

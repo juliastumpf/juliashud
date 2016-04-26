@@ -1152,7 +1152,6 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"ypos_lodef"				"75"
 		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
@@ -1163,10 +1162,9 @@
 		"fieldName"				"HudTournamentSetup"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-90"
-		"ypos"					"-70"
-		"ypos_lodef"				"75"
-		"wide"					"180"
+		"xpos"					"c-112"
+		"ypos"					"-100"
+		"wide"					"224"
 		"tall"					"65"
 	}
 
