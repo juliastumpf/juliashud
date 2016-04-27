@@ -1,0 +1,231 @@
+
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthValue 	FgColor		"julia+"		Linear 0.0 0.1
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+
+	Animate	PlayerStatusHealthValue 	FgColor		"juliaFG"		Linear 0.0 0.1
+}
+
+//===========================================
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthValue 	FgColor		"julia-"		Linear 0.0 0.1
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+
+	Animate	PlayerStatusHealthValue 	FgColor		"juliaFG"		Linear 0.0 0.1
+}
+
+//===========================================
+
+event HudLowAmmoPulse
+{
+	Animate	AmmoInClip 		FgColor		"julia-"		Linear 0.0 0.1
+	Animate	AmmoInReserve 	FgColor		"julia-"		Linear 0.0 0.1
+	Animate	AmmoNoClip 		FgColor		"julia-"		Linear 0.0 0.1
+}
+
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 0.0
+
+	Animate	AmmoInClip 		FgColor		"juliaFG"		Linear 0.0 0.1
+	Animate	AmmoInReserve 	FgColor		"juliaFG"		Linear 0.0 0.1
+	Animate	AmmoNoClip 		FgColor		"juliaFG"		Linear 0.0 0.1
+}
+
+//====================================
+
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	FgColor		"julia+"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"julia+"		Linear 0.0 0.1
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+
+	Animate	ChargeLabel 	FgColor		"juliaFG"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"juliaFG"		Linear 0.0 0.1
+}
+
+//===========================================
+
+event HasNotificationsBlink
+{
+}
+
+event HasNotificationsBlinkStop
+{
+	StopEvent HasNotificationsBlink				0.0
+}
+
+//===========================================
+
+event NotificationsPresentBlink
+{
+}
+
+
+event NotificationsPresentBlinkStop
+{
+	StopEvent NotificationsPresentBlink				0.0
+}
+
+//===========================================
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+}
+
+event HudTournament_MoveChatWindow
+{
+}
+
+//=============================================
+
+event HudReadyPulse
+{
+}
+
+
+event HudReadyPulseEnd
+{
+	StopEvent HudReadyPulse			0.0
+}
+
+//==================================================
+
+
+event HudTournament_AnimateTeams_In
+{
+}
+
+event HudTournament_AnimateTeams_Out
+{
+}
+
+event HudTournament_DoorsClose
+{
+	StopEvent HudTournament_ResetTimer 0
+
+	SetVisible	HudTournamentBG 0	2
+	SetVisible	TournamentConditionLabel 0 2
+
+	RunEvent HudTournament_DoorsCleanup 10
+
+}
+
+event HudTournament_DoorsCleanup
+{
+	SetVisible CountdownLabel 0 0
+	SetVisible CountdownLabelShadow 0 0
+
+	SetVisible	MatchStartingBG	0	0
+	SetVisible	BlueTeamPanel	0	0
+	SetVisible	RedTeamPanel	0	0
+}
+
+event HudTournament_ShowTimerCompetitive
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+}
+
+event HudTournament_ShowTimerDefault
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+}
+
+//===========================================
+
+// Show the Overtime panel
+event OvertimeShow
+{
+	Animate OvertimeLabel				Alpha		"255"			Linear 0.0 0.1
+}
+
+//===========================================
+
+event OvertimeLabelPulseRed
+{
+}
+
+event SuddenDeathLabelPulseRed
+{
+}
+
+//===========================================
+
+event DamagedPlayer
+{
+	Animate	crosshair2 	Alpha		"255"		Linear 0 0
+	Animate	crosshair2 	Alpha		"0"			Linear 0.1 0.1
+}
+
+//===========================================
+
+event WinPanel_CompPos
+{
+	Animate WinPanel ypos 0 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+	Animate WinPanel ypos 0 Linear 0 0
+}
+
+//===========================================
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"-320 32"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-112 32"	Spline 0.001 0.1
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-112 32"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"-320 32"	Spline 0.001 0.1
+}
+
+event TeamStatus_PlayerAlive
+ {
+ 	Animate DeathPanel ypos 0 Accel 0 0
+	Animate SkullPanel ypos 0 Accel 0 0
+	Animate respawntime ypos 0 Accel 0 0
+
+	SetVisible DeathPanel  0 0
+	SetVisible SkullPanel  0 0
+	SetVisible respawntime 0 0.2
+}
+
+event HudMatchSummary_ShowMatchWinDoors
+{
+	SetVisible	MatchDoors	1	0
+	SetVisible	FrontParticlePanel	1	0
+
+	RunEventChild MatchDoors PlayDoorCloseAnim 0
+	RunEventChild FrontParticlePanel PlayDoorSlamParticles 0.45
+	RunEventChild MatchDoors PlayDoorOpenAnim 4.5
+
+	SetVisible MatchDoors	0 7
+	SetVisible	FrontParticlePanel	0	7
+}
