@@ -24,11 +24,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"xpos"			"8"
-		"ypos"			"-6"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"88"
 		"tall"			"24"
-		"textinsety"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%AmmoInReserve%"
@@ -36,6 +35,8 @@
 		"textInsetx"	"0"
 		"font"			"juliaMedium"
 		"fgcolor"		"juliaFG"
+		"textinsety"	"-7"
+		"use_proportional_insets" "1"
 	}
 	"AmmoNoClip"
 	{
