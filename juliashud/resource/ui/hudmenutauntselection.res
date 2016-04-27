@@ -93,20 +93,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel1"
-		"font"			"juliaSmall"
+		"font"			"juliaMedium"
 		"fgcolor"		"juliaFG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"16"
-		"tall"			"12"
+		"tall"			"24"
 
-		"textinsety"	"-2"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"1"
-		"textAlignment"	"north-east"
+		"textAlignment"	"west"
 	}
 
 	"TauntModelPanel2"
@@ -147,20 +147,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel2"
-		"font"			"juliaSmall"
+		"font"			"juliaMedium"
 		"fgcolor"		"juliaFG"
 		"xpos"			"0"
 		"ypos"			"32"
 		"zpos"			"5"
 		"wide"			"16"
-		"tall"			"12"
+		"tall"			"24"
 
-		"textinsety"	"-2"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"2"
-		"textAlignment"	"north-east"
+		"textAlignment"	"west"
 	}
 
 	"TauntModelPanel3"
@@ -201,20 +201,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel3"
-		"font"			"juliaSmall"
+		"font"			"juliaMedium"
 		"fgcolor"		"juliaFG"
 		"xpos"			"0"
 		"ypos"			"64"
 		"zpos"			"5"
 		"wide"			"16"
-		"tall"			"12"
+		"tall"			"24"
 
-		"textinsety"	"-2"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"3"
-		"textAlignment"	"north-east"
+		"textAlignment"	"west"
 	}
 
 	"TauntModelPanel4"
@@ -255,20 +255,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel4"
-		"font"			"juliaSmall"
+		"font"			"juliaMedium"
 		"fgcolor"		"juliaFG"
 		"xpos"			"0"
 		"ypos"			"96"
 		"zpos"			"5"
 		"wide"			"16"
-		"tall"			"12"
+		"tall"			"24"
 
-		"textinsety"	"-2"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"4"
-		"textAlignment"	"north-east"
+		"textAlignment"	"west"
 	}
 
 	"TauntModelPanel5"
@@ -309,20 +309,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel5"
-		"font"			"juliaSmall"
+		"font"			"juliaMedium"
 		"fgcolor"		"juliaFG"
 		"xpos"			"0"
 		"ypos"			"128"
 		"zpos"			"5"
 		"wide"			"16"
-		"tall"			"12"
+		"tall"			"24"
 
-		"textinsety"	"-2"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"5"
-		"textAlignment"	"north-east"
+		"textAlignment"	"west"
 	}
 
 	"TauntModelPanel6"
@@ -363,20 +363,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel6"
-		"font"			"juliaSmall"
+		"font"			"juliaMedium"
 		"fgcolor"		"juliaFG"
 		"xpos"			"0"
 		"ypos"			"160"
 		"zpos"			"5"
 		"wide"			"16"
-		"tall"			"12"
+		"tall"			"24"
 
-		"textinsety"	"-2"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"6"
-		"textAlignment"	"north-east"
+		"textAlignment"	"west"
 	}
 
 	"TauntModelPanel7"
@@ -417,20 +417,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel7"
-		"font"			"juliaSmall"
+		"font"			"juliaMedium"
 		"fgcolor"		"juliaFG"
 		"xpos"			"0"
 		"ypos"			"192"
 		"zpos"			"5"
 		"wide"			"16"
-		"tall"			"12"
+		"tall"			"24"
 
-		"textinsety"	"-2"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"7"
-		"textAlignment"	"north-east"
+		"textAlignment"	"west"
 	}
 
 	"TauntModelPanel8"
@@ -471,19 +471,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel8"
-		"font"			"juliaSmall"
+		"font"			"juliaMedium"
 		"fgcolor"		"juliaFG"
 		"xpos"			"0"
 		"ypos"			"224"
 		"zpos"			"5"
 		"wide"			"16"
-		"tall"			"12"
+		"tall"			"24"
 
-		"textinsety"	"-2"
+		"textinsety"	"-7"
 		"use_proportional_insets" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"8"
-		"textAlignment"	"north-east"
+		"textAlignment"	"west"
 	}
 }
