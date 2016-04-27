@@ -11,6 +11,20 @@
 		"tall"			"480"
 		"visible"		"1"
 
+		"BlueScoreBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BlueScoreBG"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"RedScoreBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"RedScoreBG"
+			"visible"		"0"
+			"enabled"		"0"
+		}
 		"juliaRedBG"
 		{
 			"ControlName"		"ImagePanel"
@@ -50,21 +64,6 @@
 			"enabled"		"1"
 			"fillcolor"		"juliaBGT"
 		}
-
-		"BlueScoreBG"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"BlueScoreBG"
-			"visible"		"0"
-			"enabled"		"0"
-		}
-		"RedScoreBG"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"RedScoreBG"
-			"visible"		"0"
-			"enabled"		"0"
-		}
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -73,16 +72,11 @@
 			"fgcolor"		"juliaFG"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
-			"zpos"			"10"
 			"xpos"			"c-112"
 			"ypos"			10
 			"wide"			"112"
 			"tall"			"24"
 			"textinsety"	"0"
-			"tall_lodef"	"24"
-			"tall_hidef"	"24"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -141,7 +135,7 @@
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"BlueLeaderAvatar"
 			"xpos"			"61"
-			"ypos"			"14"
+			"ypos"			"999"
 			"zpos"			"5"
 			"wide"			"40"
 			"tall"			"40"
@@ -155,8 +149,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueLeaderAvatarBG"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"59"
+			"ypos"			"999"
+			"zpos"			"4"
+			"wide"			"44"
+			"tall"			"44"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
 		}
 		"RedTeamLabel"
 		{
@@ -229,7 +229,7 @@
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"RedLeaderAvatar"
 			"xpos"			"280"
-			"ypos"			"14"
+			"ypos"			"999"
 			"zpos"			"5"
 			"wide"			"40"
 			"tall"			"40"
@@ -243,8 +243,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RedLeaderAvatarBG"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"278"
+			"ypos"			"999"
+			"zpos"			"4"
+			"wide"			"44"
+			"tall"			"44"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
 		}
 	}
 
@@ -252,16 +258,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"WinPanelBGBorder"
-		"xpos"			"cs-0.5"
-		"ypos"			"70"
-		"zpos"			"0"
-		"wide"			"p0.94"
-		"tall"			"185"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"border"		"TFFatLineBorderBlueBG"
-		"proportionaltoparent"	"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"WinningTeamLabel"
 	{
@@ -382,6 +380,23 @@
 		"labelText"		"%DetailsLabel%"
 		"textAlignment"		"west"
 	}
+	"DetailsLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"DetailsLabelShadow"
+		"font"			"juliaBlurSmall"
+		"fgcolor"		"juliaShadow"
+		"xpos"			"18"
+		"ypos"			"40"
+		"zpos"			"0"
+		"wide"			"256"
+		"tall"			"12"
+		"textinsety"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%DetailsLabel%"
+		"textAlignment"		"west"
+	}
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"
@@ -438,7 +453,7 @@
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
 	}
@@ -451,8 +466,8 @@
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
@@ -515,7 +530,7 @@
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
 	}
@@ -528,8 +543,8 @@
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
@@ -592,7 +607,7 @@
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
 	}
@@ -605,8 +620,8 @@
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
@@ -666,8 +681,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
-		"ControlName"	"CExLabel"
-		"fieldName"		"KillStreakLeaderLabel"
 		"font"			"juliaSmall"
 		"xpos"			"c-112"
 		"ypos"			"r38"
@@ -677,27 +690,15 @@
 		"textinsety"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"highest killstreak:"
+		"labelText"		"#Winpanel_KillStreakLeader"
 		"textAlignment"	"west"
 	}
 	"KillStreakMaxCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
-		"font"			"ScoreboardVerySmall"
-		"xpos"			"139"
-		"ypos"			"195"
-		"zpos"			"3"
-		"wide"			"140"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"labelText"		"#Winpanel_KillStreakMaxCount"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	"HorizontalLine2"
 	{
@@ -711,12 +712,12 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"KillStreakPlayer1Medal"
 		"xpos"			"11"
-		"ypos"			"999"
+		"ypos"			"211"
 		"zpos"			"3"
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
 	}
@@ -729,8 +730,8 @@
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
