@@ -126,14 +126,8 @@ event HudTournament_DoorsClose
 {
 	StopEvent HudTournament_ResetTimer 0
 
-	SetVisible CountdownLabel 1 0
-	SetVisible CountdownLabelShadow 1 0
-
 	SetVisible	HudTournamentBG 0	2
 	SetVisible	TournamentConditionLabel 0 2
-
-	SetVisible CountdownLabel 0 9.9
-	SetVisible CountdownLabelShadow 0 9.9
 
 	RunEvent HudTournament_DoorsCleanup 10
 
@@ -191,12 +185,12 @@ event DamagedPlayer
 
 event WinPanel_CompPos
 {
-	//Animate WinPanel ypos 115 Linear 0 0
+	Animate WinPanel ypos 0 Linear 0 0
 }
 
 event WinPanel_NormalPos
 {
-	//Animate WinPanel ypos 215 Linear 0 0
+	Animate WinPanel ypos 0 Linear 0 0
 }
 
 //===========================================
@@ -210,4 +204,28 @@ event HudTournamentSetupPanelClose
 {
 	Animate HudTournamentSetup	Position	"c-112 32"	Linear 0.0 0.001
 	Animate HudTournamentSetup	Position	"-320 32"	Spline 0.001 0.1
+}
+
+event TeamStatus_PlayerAlive
+ {
+ 	Animate DeathPanel ypos 0 Accel 0 0
+	Animate SkullPanel ypos 0 Accel 0 0
+	Animate respawntime ypos 0 Accel 0 0
+
+	SetVisible DeathPanel  0 0
+	SetVisible SkullPanel  0 0
+	SetVisible respawntime 0 0.2
+}
+
+event HudMatchSummary_ShowMatchWinDoors
+{
+	SetVisible	MatchDoors	1	0
+	SetVisible	FrontParticlePanel	1	0
+
+	RunEventChild MatchDoors PlayDoorCloseAnim 0
+	RunEventChild FrontParticlePanel PlayDoorSlamParticles 0.45
+	RunEventChild MatchDoors PlayDoorOpenAnim 4.5
+
+	SetVisible MatchDoors	0 7
+	SetVisible	FrontParticlePanel	0	7
 }
