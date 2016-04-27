@@ -9,9 +9,11 @@ shoutouts to all the lovely people at teamfortress.tv and huds.tf for inspiring 
 
 ####links:
 [screenshots:](http://imgur.com/a/T1GlQ)
+
 [download:](https://github.com/juliastumpf/juliashud/archive/master.zip)
 
 [steam group](http://steamcommunity.com/groups/juliashud)
+
 [tftv thread](http://www.teamfortress.tv/32850/julias-hud)
 
 ####installation:
