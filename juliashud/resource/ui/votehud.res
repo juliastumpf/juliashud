@@ -1,160 +1,167 @@
 "Resource/UI/VoteHud.res"
-{	
+{
 	"VotePassed"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"VotePassed"
-		"xpos"			"10"
-		"ypos"			"r315"
-		"wide"			"150"
-		"tall"			"67"
+		"xpos"			"16"
+		"ypos"			"r48"
+		"wide"			"256"
+		"tall"			"128"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
+		"border"		"juliaNone"
+
 		"PassedIcon"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"PassedIcon"
-			"xpos"			"10"
-			"ypos"			"10"
-			"wide"			"17"
-			"tall"			"17"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"hud/vote_yes"
+			"image"			"replay/thumbnails/check"
 		}
-		
+
 		"PassedTitle"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PassedTitle"
-			"xpos"			"32"
-			"ypos"			"10"
-			"wide"			"98"
-			"tall"			"17"
+			"textinsetx"	"18"
+			"textinsety"	"-7"
+			"use_proportional_insets" "1"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"256"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#GameUI_vote_passed"
+			"labelText"		"vote passed"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"juliaMedium"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"juliaFG"
 		}
-		
+
 		"PassedResult"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PassedResult"
-			"xpos"			"10"
-			"ypos"			"29"
-			"wide"			"130"
-			"tall"			"40"
+			"xpos"			"0"
+			"ypos"			"16"
+			"wide"			"256"
+			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
+			"textinsety"	"-2"
+			"use_proportional_insets" "1"
 			"labelText"		"%passedresult%"
-			"textAlignment"	"north-west"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"juliaSmall"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"juliaFG"
 			"noshortcutsyntax" "1"
-		}		
+		}
 	}
-	
+
 	"VoteActive"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"VoteActive"
-		"xpos"			"10"
-		"ypos"			"r315"
-		"wide"			"150"
-		"tall"			"144"
+		"xpos"			"16"
+		"ypos"			"r112"
+		"wide"			"512"
+		"tall"			"128"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-		
+		"border"		"juliaNone"
+
 		"Header"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"Header"
-			"xpos"			"10"
-			"ypos"			"5"
-			"wide"			"130"
-			"tall"			"20"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"512"
+			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%header%"
-			"textAlignment"		"north-west"
+			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"juliaSmall"
 			"wrap"			"1"
-			"fgcolor_override"	"128 128 128 255"
+			"fgcolor_override"	"juliaFG"
+			"textinsetx"	"0"
+			"textinsety"	"-2"
+			"use_proportional_insets" "1"
 		}
-		
+
 		"Issue"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"Issue"
-			"xpos"			"10"
-			"ypos"			"22"
-			"wide"			"120"
-			"tall"			"40"
+			"xpos"			"0"
+			"ypos"			"12"
+			"wide"			"512"
+			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
-			"textAlignment"	"north-west"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"font"			"juliaMedium"
+			"fgcolor_override"	"juliaFG"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
+			"textinsety"	"-7"
+			"use_proportional_insets" "1"
 		}
 
 		"TargetAvatarImage"
 		{
 			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"TargetAvatarImage"
-			"xpos"			"10"
-			"ypos"			"23"
+			"xpos"			"0"
+			"ypos"			"16"
 			"wide"			"16"
 			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
-			"color_outline"	"52 48 45 255"
+			"scaleImage"	"1"
+			"color_outline"	"Blank"
 		}
-		
+
 		// divider
 		"Divider"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Divider"
-			"xpos"			"10"
-			"ypos"			"50"
-			"wide"			"130"
-			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
-			"zpos"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
-		
+
 		// Temp UI
-		
+
 		"LabelOption1"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"LabelOption1"
-			"xpos"			"10"
-			"ypos"			"57"
-			"wide"			"130"
-			"tall"			"16"
+			"xpos"			"0"
+			"ypos"			"32"
+			"wide"			"128"
+			"tall"			"12"
 			"zpos"			"2"
 			"visible"		"1"
 			"enabled"		"1"
@@ -162,50 +169,52 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"font"			"juliaSmall"
+			"fgcolor_override"	"juliaFG"
 		}
-		
+
 		"Option1Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Option1Background_Selected"
-			"xpos"			"10"
-			"ypos"			"57"
-			"wide"			"130"
-			"tall"			"16"
+			"xpos"			"0"
+			"ypos"			"32"
+			"wide"			"128"
+			"tall"			"12"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"julia+"
 			"visible"		"1"
 		}
-		
+
 		"Option1CountLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"Option1CountLabel"
-			"xpos"			"28"
-			"ypos"			"113"
+			"xpos"			"16"
+			"ypos"			"64"
 			"wide"			"16"
-			"tall"			"16"
+			"tall"			"24"
 			"zpos"			"2"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"Yes"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"font"			"juliaMedium"
+			"fgcolor_override"	"juliaFG"
+			"textinsety"	"-7"
+			"use_proportional_insets" "1"
 		}
-		
+
 		"LabelOption2"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"LabelOption2"
-			"xpos"			"10"
-			"ypos"			"73"
-			"wide"			"130"
-			"tall"			"16"
+			"xpos"			"0"
+			"ypos"			"48"
+			"wide"			"128"
+			"tall"			"12"
 			"zpos"			"2"
 			"visible"		"1"
 			"enabled"		"1"
@@ -213,42 +222,44 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"font"			"juliaSmall"
+			"fgcolor_override"	"juliaFG"
 		}
-		
+
 		"Option2Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Option2Background_Selected"
-			"xpos"			"10"
-			"ypos"			"73"
-			"wide"			"130"
-			"tall"			"16"
+			"xpos"			"0"
+			"ypos"			"48"
+			"wide"			"128"
+			"tall"			"12"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"julia-"
 			"visible"		"1"
 		}
-		
+
 		"Option2CountLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"Option2CountLabel"
-			"xpos"			"74"
-			"ypos"			"113"
+			"xpos"			"72"
+			"ypos"			"64"
 			"wide"			"16"
-			"tall"			"16"
+			"tall"			"24"
 			"zpos"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"No"
-			"textAlignment"	"center"
+			"labelText"		"no"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"font"			"juliaMedium"
+			"fgcolor_override"	"juliaFG"
+			"textinsety"	"-7"
+			"use_proportional_insets" "1"
 		}
-		
+
 		"LabelOption3"
 		{
 			"ControlName"	"Label"
@@ -267,7 +278,7 @@
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
-		
+
 		"Option3Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -280,7 +291,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 		}
-		
+
 		"LabelOption4"
 		{
 			"ControlName"	"Label"
@@ -299,7 +310,7 @@
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
-		
+
 		"Option4Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -312,7 +323,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 		}
-		
+
 		"LabelOption5"
 		{
 			"ControlName"	"Label"
@@ -331,7 +342,7 @@
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
-		
+
 		"Option5Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -344,269 +355,283 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 		}
-		
+
 		// divider
 		"Divider2"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Divider2"
-			"xpos"			"10"
-			"ypos"			"100"
-			"wide"			"130"
-			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
-			"zpos"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
-		
+
 		"VoteCountLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"VoteCountLabel"
-			"xpos"			"10"
-			"ypos"			"100"
-			"wide"			"140"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_vote_current_vote_count"
-			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"128 128 128 255"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
-		
+
 		// vote bar
 		"VoteBar"
 		{
 			"ControlName"	"Panel"
 			"fieldName"		"VoteBar"
-			"xpos"			"11"
-			"ypos"			"113"
-			"wide"			"130"
-			"tall"			"18"
+			"xpos"			"0"
+			"ypos"			"64"
+			"wide"			"128"
+			"tall"			"16"
 			"zpos"			"2"
 			"visible"		"1"
-			"enabled"		"1"			
+			"enabled"		"1"
 			"box_size"		"16"
-			"spacer"		"6"
-			"box_inset"		"1"
+			"spacer"		"16"
+			"box_inset"		"0"
 			"yes_texture"	"vgui/hud/vote_yes"
-			"no_texture"	"vgui/hud/vote_no"			
-		}			
+			"no_texture"	"vgui/hud/vote_no"
+		}
 	}
-	
+
 	// This is sent to the vote caller when they're not able to start the vote
 	"CallVoteFailed"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CallVoteFailed"
-		"xpos"			"10"
-		"ypos"			"c-80"
-		"wide"			"150"
-		"tall"			"67"
+		"xpos"			"16"
+		"ypos"			"r48"
+		"wide"			"512"
+		"tall"			"128"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
+		"border"		"juliaNone"
+
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"FailedIcon"
-			"xpos"			"10"
-			"ypos"			"10"
-			"wide"			"17"
-			"tall"			"17"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"hud/vote_no"
+			"image"			"replay/thumbnails/x"
 		}
-		
+
 		"FailedTitle"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailedTitle"
-			"xpos"			"32"
-			"ypos"			"10"
-			"wide"			"80"
-			"tall"			"17"
+			"textinsetx"	"18"
+			"textinsety"	"-7"
+			"use_proportional_insets" "1"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"256"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#GameUI_vote_failed"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"juliaMedium"
 			"wrap"			"1"
-			"fgcolor_override"	"200 30 30 255"
+			"fgcolor_override"	"juliaFG"
+			"labelText"		"#GameUI_vote_failed"
 		}
-		
+
 		"FailedReason"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailedReason"
-			"xpos"			"10"
-			"ypos"			"29"
-			"wide"			"140"
-			"tall"			"40"
+			"xpos"			"0"
+			"ypos"			"16"
+			"wide"			"512"
+			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
+			"textinsety"	"-2"
+			"use_proportional_insets" "1"
 			"labelText"		"%FailedReason%"
-			"textAlignment"	"north-west"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"juliaSmall"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
-		}		
+			"fgcolor_override"	"juliaFG"
+			"noshortcutsyntax" "1"
+		}
 	}
-	
+
 	// This is shown to everyone when a vote fails due to lack of votes
 	"VoteFailed"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"VoteFailed"
-		"xpos"			"10"
-		"ypos"			"r315"
-		"wide"			"150"
-		"tall"			"67"
+		"xpos"			"16"
+		"ypos"			"r48"
+		"wide"			"256"
+		"tall"			"128"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
+		"border"		"juliaNone"
+
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"FailedIcon"
-			"xpos"			"10"
-			"ypos"			"10"
-			"wide"			"17"
-			"tall"			"17"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"hud/vote_no"
+			"image"			"replay/thumbnails/x"
 		}
-		
+
 		"FailedTitle"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailedTitle"
-			"xpos"			"32"
-			"ypos"			"10"
-			"wide"			"98"
-			"tall"			"17"
+			"textinsetx"	"18"
+			"textinsety"	"-7"
+			"use_proportional_insets" "1"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"256"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#GameUI_vote_failed"
+			"labelText"		"vote failed"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"juliaMedium"
 			"wrap"			"1"
-			"fgcolor_override"	"200 30 30 255"
+			"fgcolor_override"	"juliaFG"
 		}
-		
+
 		"FailedReason"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailedReason"
-			"xpos"			"10"
-			"ypos"			"29"
-			"wide"			"130"
-			"tall"			"40"
+			"xpos"			"0"
+			"ypos"			"16"
+			"wide"			"256"
+			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
+			"textinsety"	"-2"
+			"use_proportional_insets" "1"
 			"labelText"		""
-			"textAlignment"	"north-west"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"juliaSmall"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
-		}		
+			"fgcolor_override"	"juliaFG"
+		}
 	}
-	
+
 	"VoteSetupDialog"
 	{
 		"ControlName"		"CVoteSetupDialog"
 		"fieldName"			"VoteSetupDialog"
-		"xpos"				"c-200"
-		"ypos"				"c-150"
-		"wide"				"400"
-		"tall"				"310"
+		"xpos"				"c-320"
+		"ypos"				"c-160"
+		"wide"				"640"
+		"tall"				"320"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaque"
+		"border"			"juliaNone"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackground"	"0"
 
-		"header_font"		"ItemFontNameLarge"
-		"header_fgcolor"	"Orange"
+		"header_font"		"juliaMedium"
+		"header_fgcolor"	"juliaFG"
 
-		"issue_width"		"180"		
-		"issue_font"		"ItemFontNameSmall"
-		"issue_fgcolor"		"TanLight"
-		"issue_fgcolor_disabled"	"TanDark"
-		
-		"parameter_width"	"200"
+		"issue_width"		"304"
+		"issue_font"		"juliaSmall"
+		"issue_fgcolor"		"juliaFG"
+		"issue_fgcolor_disabled"	"juliaFGT"
+
+		"parameter_width"	"304"
+
+		"juliaVoteLogo"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"juliaVoteLogo"
+			"xpos"			"16"
+			"ypos"			"16"
+			"wide"			"32"
+			"tall"			"32"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/check"
+			"scaleImage"	"1"
+		}
 
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
-			"labelText"		"#TF_Vote_Title"
-			"textAlignment"	"north"
-			"xpos"			"0"
-			"ypos"			"10"
-			"wide"			"400"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"font"			"juliaLarge"
+			"labelText"		"call a vote"
+			"textAlignment" "west"
+			"xpos"			"48"
+			"ypos"			"0"
+			"wide"			"640"
+			"tall"			"64"
+			"textinsetx"	"4"
+			"textinsety"	"0"
+			"use_proportional_insets" "1"
 			"visible"		"1"
 			"enabled"		"1"
-			"wrap"			"0"
+			"fgcolor" 		"juliaFG"
 		}
-									
+
 		"VoteSetupList"
 		{
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"VoteSetupList"
-			"xpos"		"10"
-			"ypos"		"38"
+			"xpos"		"16"
+			"ypos"		"48"
 			"zpos"		"2"
-			"wide"		"180"
-			"tall"		"200"
+			"wide"		"304"
+			"tall"		"256"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"0"
-			
-			"linespacing"	"16"
+
+			"linespacing"	"12"
 		}
-		
+
 		"VoteParameterList"
 		{
 			"ControlName"		"SectionedListPanel"
 			"fieldName"		"VoteParameterList"
-			"xpos"		"190"
-			"ypos"		"38"
+			"xpos"		"320"
+			"ypos"		"48"
 			"zpos"		"2"
-			"wide"		"200"
-			"tall"		"200"
+			"wide"		"304"
+			"tall"		"256"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"0"
-			"linespacing"	"16"
+			"linespacing"	"12"
 		}
 
 		"ComboLabel"
@@ -646,7 +671,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"117 107 94 255"
 			"bgcolor_override"	"251 235 202 255"
 			"disabledFgColor_override" "117 107 94 255"
@@ -655,48 +680,98 @@
 			"selectionTextColor_override" "117 107 94 255"
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
-			
+
 		"CallVoteButton"
 		{
 			"ControlName"		"Button"
 			"fieldName"		"CallVoteButton"
-			"xpos"		"75"
-			"ypos"		"275"
+			"xpos"		"0"
+			"ypos"		"292"
 			"wide"		"160"
 			"tall"		"24"
+			"zpos"		"100"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"0"
 			"tabPosition"	"4"
 			"labelText"		"#TF_call_vote"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"CallVote"
 			"Default"		"0"
-			"font"			"HudFontSmallBold"
+			"font"			"juliaMedium"
+			"textinsety"	"-7"
+			"textinsetx"	"18"
+			"use_proportional_insets" "1"
+			"border_default"	"juliaNone"
+			"border_armed"		"juliaNone"
+
+			"paintbackground"	"0"
+			"defaultFgColor_override" "juliaFG"
+			"armedFgColor_override" "juliaFG"
+			"depressedFgColor_override" "juliaFG"
 		}
+
 		"Button1"
 		{
 			"ControlName"		"Button"
 			"fieldName"		"Button1"
-			"xpos"		"240"
-			"ypos"		"275"
-			"wide"		"80"
-			"tall"		"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"alpha"			"0"
+		}
+		"juliaBackground"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"juliaBackground"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-100"
+			"wide"			"640"
+			"tall"			"320"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"4"
-			"labelText"		"#GameUI_Close"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"Close"
-			"Default"		"0"
-			"font"			"HudFontSmallBold"
+			"fillcolor"		"juliaBGT"
+			"border"		"juliaWhite"
+		}
+		"juliaBack"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"juliaBack"
+			"xpos"			"-8"
+			"ypos"			"-8"
+			"zpos"			"3"
+			"wide"			"32"
+			"tall"			"32"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"Command"			"Close"
+			"labelText"			""
+
+			"border_default"	"juliaNone"
+			"border_armed"		"juliaNone"
+			"paintbackground"	"0"
+			"paintborder"	"0"
+
+			"image_default"		"replay/thumbnails/arrowleft"
+			"image_armed"		"replay/thumbnails/arrowleftinverse"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"32"
+				"tall"			"32"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
 		}
 	}
 }
