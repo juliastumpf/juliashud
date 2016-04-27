@@ -7,11 +7,12 @@ if you see anything missing or broken, please let me know!
 
 shoutouts to all the lovely people at teamfortress.tv and huds.tf for inspiring me to make my own hud and for helping me along the way <3
 
-####screenshots:
-new screenshots coming soon
+####links:
+[screenshots:](http://imgur.com/a/T1GlQ)
+[download:](https://github.com/juliastumpf/juliashud/archive/master.zip)
 
-####download:
-[download](https://github.com/juliastumpf/juliashud/archive/master.zip)
+[steam group](http://steamcommunity.com/groups/juliashud)
+[tftv thread](http://www.teamfortress.tv/32850/julias-hud)
 
 ####installation:
 just drag the folder of your choice(default, compact, or cozy) into your tf2's custom folder. it's that easy!
@@ -30,11 +31,6 @@ transparent viewmodels, courtesy of [this thread](http://www.teamfortress.tv/219
 custom crosshair support coming soon
 
 if you wish to edit the hud's colors, resource/clientscheme.res is the file to edit, it's pretty self-explanatory as all colors are defined in the beginning of the file and commented as to what they are.
-
-####julia's hud on the web:
-[steamgroup](http://steamcommunity.com/groups/juliashud)
-
-[tftv thread](http://www.teamfortress.tv/32850/julias-hud)
 
 ####todo:
 - mvm hud
