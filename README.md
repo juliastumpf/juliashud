@@ -8,9 +8,9 @@ if you see anything missing or broken, please let me know!
 shoutouts to all the lovely people at teamfortress.tv and huds.tf for inspiring me to make my own hud and for helping me along the way <3
 
 ####links:
-[screenshots:](http://imgur.com/a/T1GlQ)
+[screenshots](http://imgur.com/a/T1GlQ)
 
-[download:](https://github.com/juliastumpf/juliashud/archive/master.zip)
+[download](https://github.com/juliastumpf/juliashud/archive/master.zip)
 
 [steam group](http://steamcommunity.com/groups/juliashud)
 
