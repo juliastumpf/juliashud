@@ -25,6 +25,13 @@ just drag the folder of your choice(default, compact, or cozy) into your tf2's c
 | linux   | `~/.local/share/Steam/SteamApps/common/Team Fortress 2/tf/custom/`      		  |
 | osx 	  | `~/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom/` |
 
+the following console commands aren't required, but make the hud nicer:
+```
+tf_hud_target_id_alpha 255
+tf_hud_target_id_disable_floating_health 1
+cl_use_tournament_specgui 1
+```
+
 ####customization:
 there are three versions of julia's hud: default, compact, and cozy. these differ only in how close some elements are to the crosshair -- see the screenshots section for how they each look in-game
 
