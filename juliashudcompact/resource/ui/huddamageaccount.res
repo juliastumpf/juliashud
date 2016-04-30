@@ -27,7 +27,7 @@
 		"enabled"		"1"
         "labelText"     "%metal%"
         "textAlignment" "center"
-		"fgcolor"		"juliaFG"
+		"fgcolor"		"juliaFGT"
         "font"          "juliaMedium"
     }
 	"DamageAccountValueShadow"
