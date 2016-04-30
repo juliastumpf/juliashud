@@ -34,6 +34,8 @@ custom crosshair support coming soon
 
 if you wish to edit the hud's colors, resource/clientscheme.res is the file to edit, it's pretty self-explanatory as all colors are defined in the beginning of the file and commented as to what they are.
 
+this hud uses a custom console font, which may cause issues with ETF2L status screenshots. if you wish to use the default console font, drop `/optional files/sourcescheme.res` into your `/resource/` folder, replacing the original.
+
 ####todo:
 - mvm hud
 - captions support
