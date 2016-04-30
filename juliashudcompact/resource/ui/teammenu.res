@@ -130,6 +130,17 @@
 		}
 	}
 
+	"julia1"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"julia1"
+		"wide"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"			"jointeam red"
+		"labelText"			"&1"
+	}
+
 	"juliaBluButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -175,6 +186,17 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
+	}
+
+	"julia2"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"julia2"
+		"wide"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"			"jointeam blue"
+		"labelText"			"&2"
 	}
 
 	"juliaSpectateButton"
@@ -224,6 +246,17 @@
 		}
 	}
 
+	"julia3"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"julia3"
+		"wide"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"			"jointeam spectate"
+		"labelText"			"&3"
+	}
+
 	"juliaAutoButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -269,6 +302,17 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
+	}
+
+	"julia4"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"julia4"
+		"wide"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"			"jointeam auto"
+		"labelText"			"&4"
 	}
 
 	"teambutton0"
