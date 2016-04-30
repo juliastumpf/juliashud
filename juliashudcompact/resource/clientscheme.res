@@ -5178,6 +5178,18 @@ Scheme
 			"font" "fonts/NotoSans.ttf"
 			"name" "Noto Sans"
 			"range" "0x0000 0xFFFFF"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		//"9"
 		//{
