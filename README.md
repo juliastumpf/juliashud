@@ -37,9 +37,9 @@ there are three versions of julia's hud: default, compact, and cozy. these diffe
 
 transparent viewmodels, courtesy of [this thread](http://www.teamfortress.tv/21928/transparent-viewmodels-in-any-hud/), are supported in julia's hud. follow the directions in that thread to enable them!
 
-custom crosshair support coming soon
+[fog's crosshairs](http://www.teamfortress.tv/14702/release-fogs-crosshairs-v3) are in this hud, edit `/scripts/hudlayout.res/` to enable them(instructions in file)
 
-if you wish to edit the hud's colors, resource/clientscheme.res is the file to edit, it's pretty self-explanatory as all colors are defined in the beginning of the file and commented as to what they are.
+if you wish to edit the hud's colors, `/resource/clientscheme.res` is the file to edit, it's pretty self-explanatory as all colors are defined in the beginning of the file and commented as to what they are.
 
 this hud uses a custom console font, which may cause issues with ETF2L status screenshots. if you wish to use the default console font, drop `/optional files/sourcescheme.res` into your `/resource/` folder, replacing the original.
 

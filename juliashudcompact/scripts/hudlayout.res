@@ -16,64 +16,98 @@
 		"scaleImage"	"1"
 	}
 
+	//////CROSSHAIRS BELOW HERE. look at crosshairs.png for reference
+	//crosshair position is weird and annoying, mess with textAlignment, xpos, ypos, wide, tall, textinsetx, & textinsety to get it in the right place for your machine
+
+	//this is the main crosshair. set "visible" to "1" to enable.
+	//by default, its a little white dot
 	"crosshair"
 	{
 		"controlName" "CExLabel"
 		"fieldName" "crosshair"
 		"visible" "0"
-		"enabled" "0"
+		"enabled" "1"
 		"xpos" "c-32"
 		"ypos" "c-32"
 		"zpos" "0"
-		"wide" "64"
+		"wide" "61"
 		"tall" "64"
-		"textinsety"	"-11"
+		"textinsety"	"1"
+		"textinsetx"	"0"
 		"use_proportional_insets" "0"
 
-		"font" "juliaMedium"
-		"labelText" "."
-		"fgcolor" "juliaFG"
+		"font" "crosshairSmall" //Small, Medium, Large
+		"labelText" "3" //crosshairs.png for reference
+		"fgcolor" "255 255 255 255"
 		"textAlignment" "center"
 	}
 
+	//this crosshair is a shadow. set "visible" to "1" to enable.
+	//by default, this is the shadow of the white dot
 	"crosshairShadow"
 	{
 		"controlName" "CExLabel"
 		"fieldName" "crosshairShadow"
 		"visible" "0"
-		"enabled" "0"
+		"enabled" "1"
 		"xpos" "c-32"
 		"ypos" "c-32"
 		"zpos" "-100"
-		"wide" "64"
+		"wide" "61"
 		"tall" "64"
-		"textinsety"	"-11"
+		"textinsety"	"1"
 		"use_proportional_insets" "0"
 
-		"font" "juliaBlurMedium"
-		"labelText" "."
+		"font" "crosshairBlurSmall" //Small, Medium, Large
+		"labelText" "3" //crosshairs.png for reference
 		"fgcolor" "0 0 0 255"
 		"textAlignment" "center"
 	}
 
+	//this crosshair flashes into existence for a lil bit when u do damage. its real cute... set "visible" to "1" to enable.
+	//by default, this is a medium sized white dot
 	"crosshair2"
 	{
 		"controlName" "CExLabel"
 		"fieldName" "crosshair2"
 		"visible" "0"
-		"enabled" "0"
+		"enabled" "1"
 		"xpos" "c-32"
 		"ypos" "c-32"
-		"zpos" "-1"
-		"wide" "64"
+		"zpos" "0"
+		"wide" "58"
 		"tall" "64"
-		"alpha"		"0"
-		"textinsety"	"-3"
+		"textinsety"	"3"
+		"textinsetx"	"0"
 		"use_proportional_insets" "0"
 
-		"font" "juliaMedium"
-		"labelText" "◦"
-		"fgcolor" "juliaFG"
+		"font" "crosshairLarge" //Small, Medium, Large
+		"labelText" "3" //crosshairs.png for reference
+		"fgcolor" "255 255 255 255"
+		"textAlignment" "center"
+		"alpha"		"0"
+	}
+
+	//another one ,,,,,, nothing special this time. set "visible" to "1" to enable[duh]
+	//by default, this is a shotgun spread indicator
+	"crosshair3"
+	{
+		"controlName" "CExLabel"
+		"fieldName" "crosshair3"
+		"visible" "0"
+		"enabled" "1"
+		"xpos" "c-32"
+		"ypos" "c-32"
+		"zpos" "0"
+		"wide" "67"
+		"tall" "64"
+		"textinsety"	"5"
+		"textinsetx"	"0"
+		"use_proportional_insets" "0"
+
+		"font" "crosshairLarge" //Small, Medium, Large
+		"labelText" "0" //crosshairs.png for reference
+		"fgcolor" "255 255 255 32"
 		"textAlignment" "center"
 	}
 
